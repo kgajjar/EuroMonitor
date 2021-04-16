@@ -20,5 +20,8 @@ namespace Euromonitor.DataAccess.Data
         //Creates table called Users in DB
         public DbSet<AppUser> Users { get; set; }
 
+        //Creates a table called Books in the DB
+        public DbSet<Book> Books { get; set; }
+
     }
 }

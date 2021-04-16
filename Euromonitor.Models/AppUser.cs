@@ -9,6 +9,11 @@ namespace Euromonitor.Models
 {
     public class AppUser
     {
+        public AppUser()
+        {
+            this.Books = new HashSet<Book>();
+        }
+
         [Key]
         public int Id { get; set; }
 
@@ -33,5 +38,10 @@ namespace Euromonitor.Models
         public DateTime Created { get; set; } = DateTime.Now;
 
         public DateTime LastActive { get; set; } = DateTime.Now;
+
+        /*Configure Many to Many relationship in EF-Core
+         *Collection Navigation Property
+        */
+        public virtual ICollection<Book> Books { get; set; }
     }
 }
