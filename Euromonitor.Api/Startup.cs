@@ -1,4 +1,5 @@
 using Euromonitor.Api.Extentions;
+using Euromonitor.Api.Middleware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -7,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,19 +36,40 @@ namespace Euromonitor.Api
             services.AddControllers();
 
             services.AddCors();
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //SWAGGER WILL GO HERE
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                //Removing as this will happen globally
+                //app.UseDeveloperExceptionPage();
+
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
             }
+
+            //Add our custom Error Middleware
+            app.UseMiddleware<ExceptionMiddleware>();
 
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            //Add Cors
+            app.UseCors(x =>
+                x.AllowAnyHeader().AllowAnyMethod()
+                .WithOrigins("https://localhost:4200"));
+
+            //Add Authentication
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
