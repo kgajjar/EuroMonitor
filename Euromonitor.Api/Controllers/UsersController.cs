@@ -14,12 +14,14 @@ namespace Euromonitor.Api.Controllers
     [Authorize]
     public class UsersController : BaseApiController
     {
-        private readonly IUserRepository _userRepository;
+        //private readonly IUserRepository _userRepository;
+        //Unit of work to access DB
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public UsersController(IUserRepository userRepository, IMapper mapper)
+        public UsersController(IUnitOfWork unitOfWork, IMapper mapper)
         {
-            _userRepository = userRepository;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
 
@@ -28,7 +30,7 @@ namespace Euromonitor.Api.Controllers
         public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
         {
             //Below we have to use async version of ToList
-            var users = await _userRepository.GetUsersAsync();
+            var users = await _unitOfWork.User.GetUsersAsync();
 
             //Map to DTO
             //Source: users
@@ -44,7 +46,7 @@ namespace Euromonitor.Api.Controllers
         [HttpGet("{username}")]
         public async Task<ActionResult<MemberDto>> GetUser(string username)
         {
-            var user = await _userRepository.GetUserByUsernameAsync(username);
+            var user = await _unitOfWork.User.GetUserByUsernameAsync(username);
 
             //FindAsync method rather than Find. Map
             return _mapper.Map<MemberDto>(user);
@@ -59,16 +61,16 @@ namespace Euromonitor.Api.Controllers
             var username = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
             //Get user from DB
-            var user = await _userRepository.GetUserByUsernameAsync(username);
+            var user = await _unitOfWork.User.GetUserByUsernameAsync(username);
 
             //Map the input Dto to our User class
             _mapper.Map(memberUpdateDto, user);
 
             //User object is flagged as being updated by Entity Framework
-            _userRepository.Update(user);
+            _unitOfWork.User.Update(user);
 
             //Persist changes to DB
-            if (await _userRepository.SaveAllAsync())
+            if (await _unitOfWork.User.SaveAllAsync())
             {
                 return NoContent();
             }
