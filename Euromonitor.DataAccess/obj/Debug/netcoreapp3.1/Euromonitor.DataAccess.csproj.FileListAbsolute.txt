@@ -1,0 +1,8 @@
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.DataAccess\bin\Debug\netcoreapp3.1\Euromonitor.DataAccess.deps.json
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.DataAccess\bin\Debug\netcoreapp3.1\Euromonitor.DataAccess.dll
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.DataAccess\bin\Debug\netcoreapp3.1\Euromonitor.DataAccess.pdb
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.DataAccess\obj\Debug\netcoreapp3.1\Euromonitor.DataAccess.AssemblyInfoInputs.cache
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.DataAccess\obj\Debug\netcoreapp3.1\Euromonitor.DataAccess.AssemblyInfo.cs
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.DataAccess\obj\Debug\netcoreapp3.1\Euromonitor.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.DataAccess\obj\Debug\netcoreapp3.1\Euromonitor.DataAccess.dll
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.DataAccess\obj\Debug\netcoreapp3.1\Euromonitor.DataAccess.pdb

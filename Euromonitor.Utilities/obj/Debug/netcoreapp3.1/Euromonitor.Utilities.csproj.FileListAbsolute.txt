@@ -1,0 +1,8 @@
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\bin\Debug\netcoreapp3.1\Euromonitor.Utilities.deps.json
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\bin\Debug\netcoreapp3.1\Euromonitor.Utilities.dll
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\bin\Debug\netcoreapp3.1\Euromonitor.Utilities.pdb
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\obj\Debug\netcoreapp3.1\Euromonitor.Utilities.AssemblyInfoInputs.cache
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\obj\Debug\netcoreapp3.1\Euromonitor.Utilities.AssemblyInfo.cs
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\obj\Debug\netcoreapp3.1\Euromonitor.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\obj\Debug\netcoreapp3.1\Euromonitor.Utilities.dll
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\obj\Debug\netcoreapp3.1\Euromonitor.Utilities.pdb

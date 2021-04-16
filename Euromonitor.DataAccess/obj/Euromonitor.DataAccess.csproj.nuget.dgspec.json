@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.DataAccess\\Euromonitor.DataAccess.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.DataAccess\\Euromonitor.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.DataAccess\\Euromonitor.DataAccess.csproj",
+        "projectName": "Euromonitor.DataAccess",
+        "projectPath": "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.DataAccess\\Euromonitor.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\rhasq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rhasq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.Models\\Euromonitor.Models.csproj": {
+                "projectPath": "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.Models\\Euromonitor.Models.csproj"
+              },
+              "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.Utilities\\Euromonitor.Utilities.csproj": {
+                "projectPath": "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.Utilities\\Euromonitor.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.Models\\Euromonitor.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.Models\\Euromonitor.Models.csproj",
+        "projectName": "Euromonitor.Models",
+        "projectPath": "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.Models\\Euromonitor.Models.csproj",
+        "packagesPath": "C:\\Users\\rhasq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rhasq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.Utilities\\Euromonitor.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.Utilities\\Euromonitor.Utilities.csproj",
+        "projectName": "Euromonitor.Utilities",
+        "projectPath": "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.Utilities\\Euromonitor.Utilities.csproj",
+        "packagesPath": "C:\\Users\\rhasq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rhasq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
