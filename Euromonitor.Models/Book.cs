@@ -22,6 +22,8 @@ namespace Euromonitor.Models
         [Required]
         public double BookPurchasePrice { get; set; }
 
+        public string BookMarketingImage { get; set; }
+
         public DateTime BookCreateDate { get; set; } = DateTime.Now;
 
         public DateTime BookLastUpdated { get; set; } = DateTime.Now;

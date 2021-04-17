@@ -1,0 +1,902 @@
+[
+  {
+    "BookName": "Schwartz Softmicro",
+    "BookText": "Commodo dolore ullamco magna qui cillum duis quis nostrud ut amet labore. Minim in eu voluptate in proident Lorem anim voluptate exercitation. Aliqua voluptate pariatur sit labore culpa minim cupidatat do pariatur nisi magna. Ad cillum amet veniam veniam esse amet enim adipisicing exercitation exercitation id officia occaecat. Sunt aliquip exercitation do veniam eu proident deserunt duis in est esse qui. Nulla proident minim irure veniam pariatur est laborum non ipsum. Enim nostrud duis dolore mollit exercitation amet proident ex.\r\n",
+    "BookPurchasePrice": 43.33,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "BookCreateDate": "2020-04-15",
+    "BookLastUpdated": "2020-05-18",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Holden Digique",
+    "BookText": "Consequat esse sit esse voluptate velit eiusmod sit eiusmod. In deserunt incididunt minim ipsum incididunt eu ad dolore qui aliqua tempor. Voluptate velit ex velit reprehenderit fugiat proident occaecat eu. Laboris officia enim duis elit ea labore reprehenderit aliquip qui consequat enim nostrud ipsum. Magna tempor quis incididunt nostrud dolor dolor.\r\n",
+    "BookPurchasePrice": 65.39,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "BookCreateDate": "2019-03-07",
+    "BookLastUpdated": "2020-05-01",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Crosby Biolive",
+    "BookText": "Excepteur mollit velit ullamco commodo nostrud aliqua. Esse mollit dolore ipsum est tempor ex ipsum. Velit aliquip ipsum veniam nisi eu qui elit exercitation cupidatat ullamco quis. Incididunt minim aliqua id anim fugiat duis laborum exercitation anim non cupidatat enim. Ad ipsum sunt aute officia qui voluptate velit. Aute cillum incididunt dolore est veniam sunt dolore adipisicing in culpa.\r\n",
+    "BookPurchasePrice": 69.21,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "BookCreateDate": "2019-01-07",
+    "BookLastUpdated": "2020-06-11",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Branch Brainclip",
+    "BookText": "Esse ad aute ea cupidatat non commodo Lorem ut ea deserunt nisi. Commodo amet veniam quis consequat ipsum. Consequat labore do sunt velit laborum sit fugiat ad tempor exercitation. Elit ea adipisicing ut reprehenderit ut nostrud Lorem nostrud id et nostrud ipsum reprehenderit. Sit commodo adipisicing proident labore et culpa. Sit voluptate laborum ea reprehenderit dolor eiusmod exercitation cupidatat ullamco laborum esse consequat. Officia qui sint aliqua exercitation labore aliquip duis quis et aliqua veniam qui.\r\n",
+    "BookPurchasePrice": 30.9,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/85.jpg",
+    "BookCreateDate": "2019-04-20",
+    "BookLastUpdated": "2020-06-28",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Finch Comveyer",
+    "BookText": "Anim id dolor nisi amet. Ut amet enim consectetur laborum fugiat ad nostrud et nisi ex culpa adipisicing proident. Aute incididunt Lorem laboris dolor consequat cillum fugiat.\r\n",
+    "BookPurchasePrice": 44.69,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "BookCreateDate": "2019-10-09",
+    "BookLastUpdated": "2020-05-04",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Barr Enjola",
+    "BookText": "Non cupidatat magna elit culpa occaecat magna elit in aliqua laboris do voluptate. Proident dolor est elit mollit proident veniam esse laboris sit et dolore mollit. Enim in amet excepteur velit esse irure elit non sit. Enim irure commodo ullamco culpa aliquip. Cupidatat do aute aliquip fugiat nostrud Lorem exercitation labore pariatur officia nisi. Adipisicing duis occaecat eu esse ipsum mollit reprehenderit ea nisi.\r\n",
+    "BookPurchasePrice": 99.47,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "BookCreateDate": "2019-11-16",
+    "BookLastUpdated": "2020-05-12",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Snyder Cujo",
+    "BookText": "Anim et minim enim eiusmod nostrud cupidatat eiusmod amet cupidatat sunt. Et ullamco enim consectetur eiusmod pariatur nulla mollit officia. Ullamco velit laboris proident voluptate aute sunt. Culpa sunt eiusmod quis esse laborum irure veniam commodo adipisicing cillum ea reprehenderit incididunt.\r\n",
+    "BookPurchasePrice": 93.69,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/84.jpg",
+    "BookCreateDate": "2020-06-03",
+    "BookLastUpdated": "2020-05-11",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Stanley Senmao",
+    "BookText": "Sit consectetur adipisicing eu labore consectetur. Aute consequat aliqua consequat dolor tempor cillum nulla dolore esse dolor dolor. Quis adipisicing aliqua veniam sit aliquip. In pariatur reprehenderit sint duis eu eu enim adipisicing consectetur reprehenderit in laborum. Deserunt laborum sit exercitation qui non nostrud esse nisi. Consectetur duis tempor ipsum pariatur sunt tempor velit nostrud veniam proident sint eiusmod. Eu eiusmod consequat velit ea quis aliqua eu amet laboris.\r\n",
+    "BookPurchasePrice": 57.48,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "BookCreateDate": "2019-07-07",
+    "BookLastUpdated": "2020-06-28",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Hughes Tripsch",
+    "BookText": "Excepteur pariatur nulla pariatur qui consectetur voluptate ad dolor non deserunt irure. Veniam cupidatat est anim sunt. Ullamco anim et qui ad. Irure aute voluptate amet excepteur mollit Lorem adipisicing.\r\n",
+    "BookPurchasePrice": 52.48,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/37.jpg",
+    "BookCreateDate": "2019-08-01",
+    "BookLastUpdated": "2020-05-27",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Mack Entality",
+    "BookText": "Consequat laboris do laborum commodo consectetur reprehenderit elit nulla aliquip nisi. Occaecat occaecat eu laborum Lorem enim voluptate tempor. Aute laborum velit excepteur nostrud aliquip adipisicing ex sunt qui pariatur mollit velit duis est. Non eiusmod proident occaecat in officia aliquip minim Lorem nulla sunt. Reprehenderit sunt reprehenderit irure ad do aliqua labore aliqua adipisicing est ut ullamco cupidatat deserunt.\r\n",
+    "BookPurchasePrice": 90.31,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "BookCreateDate": "2019-12-30",
+    "BookLastUpdated": "2020-05-29",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Ramirez Eschoir",
+    "BookText": "Occaecat consequat in dolor proident non elit id occaecat est non ea. Pariatur elit exercitation pariatur id consequat duis sit ad eiusmod pariatur labore laborum irure. Ipsum deserunt magna Lorem ex dolor elit.\r\n",
+    "BookPurchasePrice": 32.8,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "BookCreateDate": "2019-08-21",
+    "BookLastUpdated": "2020-05-31",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Fry Mantrix",
+    "BookText": "Minim officia consectetur irure id quis reprehenderit sint. Esse sit fugiat labore laboris excepteur consequat nostrud commodo anim aliqua esse excepteur tempor. Cupidatat proident duis ad ipsum ad cillum aliquip ex tempor aliquip dolor. Exercitation quis irure qui incididunt culpa Lorem magna nostrud non aute minim. Ut ex amet duis consequat cupidatat exercitation tempor. Lorem do duis velit est enim eu elit do consectetur officia ut ipsum. Cupidatat enim proident laborum eiusmod.\r\n",
+    "BookPurchasePrice": 56.69,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "BookCreateDate": "2019-07-26",
+    "BookLastUpdated": "2020-06-09",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Hanson Nipaz",
+    "BookText": "Minim occaecat deserunt officia eu laboris in. Excepteur dolor nulla culpa sit nisi non. In velit in anim enim dolor duis minim incididunt veniam anim laboris proident esse velit.\r\n",
+    "BookPurchasePrice": 67.77,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "BookCreateDate": "2020-01-25",
+    "BookLastUpdated": "2020-06-23",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Casey Plutorque",
+    "BookText": "Est labore commodo Lorem in labore veniam. Ad magna adipisicing ut exercitation dolore excepteur labore. Eiusmod pariatur officia elit consectetur eu reprehenderit sunt ad dolore exercitation mollit pariatur velit. Ut cillum minim exercitation consequat non ipsum ullamco mollit. Reprehenderit veniam id consectetur eu id ullamco nostrud culpa elit sunt aliqua aliquip eu. Aliquip nostrud aute laboris duis veniam consequat dolor aute ad quis qui.\r\n",
+    "BookPurchasePrice": 81.1,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "BookCreateDate": "2020-04-11",
+    "BookLastUpdated": "2020-05-11",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Washington Quizka",
+    "BookText": "Et tempor magna consectetur sunt labore incididunt esse nulla culpa. Occaecat sint ut occaecat adipisicing proident cupidatat duis commodo culpa. Laborum do nisi tempor mollit ea cillum veniam non nostrud laboris. Minim est eu dolor exercitation laboris cupidatat occaecat tempor deserunt. Sunt duis sint eiusmod proident est nostrud ipsum ex laboris ea aliquip cupidatat sint reprehenderit. Laborum deserunt nisi quis pariatur. Quis aliqua eiusmod incididunt consequat elit cupidatat nisi officia enim veniam occaecat labore.\r\n",
+    "BookPurchasePrice": 63.82,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "BookCreateDate": "2020-03-13",
+    "BookLastUpdated": "2020-05-17",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Schneider Omatom",
+    "BookText": "Dolor commodo cillum sint incididunt consequat est ad enim in. Ex excepteur duis ad duis est aute ea sint fugiat reprehenderit velit in sint. Magna mollit ex ea quis eiusmod nostrud elit eu cillum occaecat. Quis elit amet magna eiusmod non do et veniam veniam commodo ex anim commodo.\r\n",
+    "BookPurchasePrice": 39.47,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "BookCreateDate": "2019-06-27",
+    "BookLastUpdated": "2020-06-23",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Moore Freakin",
+    "BookText": "In commodo pariatur id culpa nulla mollit voluptate adipisicing mollit duis ipsum. Adipisicing sint commodo sunt occaecat aute laboris enim proident. Laboris nulla adipisicing amet culpa ut laborum Lorem qui ipsum ullamco qui eu reprehenderit. Nulla sit ex id ex occaecat nisi consectetur tempor laborum. Sit occaecat tempor ut occaecat incididunt sint deserunt nostrud et nulla. Excepteur consectetur dolor minim consequat commodo enim eu non in laboris dolor aliquip. Est anim veniam in eiusmod tempor nisi exercitation nisi veniam nostrud occaecat nulla occaecat ea.\r\n",
+    "BookPurchasePrice": 56.14,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/84.jpg",
+    "BookCreateDate": "2020-01-10",
+    "BookLastUpdated": "2020-05-29",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Guy Emtrak",
+    "BookText": "Eiusmod excepteur sint veniam enim non in occaecat. Ad ea magna laborum non non cillum reprehenderit sint adipisicing magna occaecat laborum. Proident occaecat commodo esse qui duis in et pariatur reprehenderit dolore adipisicing dolor. Nulla pariatur eiusmod ad nostrud esse cupidatat et eiusmod aliqua amet culpa nostrud sit. Aliqua labore exercitation do laborum. Amet fugiat et commodo sit irure enim occaecat.\r\n",
+    "BookPurchasePrice": 93.2,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "BookCreateDate": "2019-08-31",
+    "BookLastUpdated": "2020-06-26",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Hicks Buzzworks",
+    "BookText": "Aute sit in in magna incididunt irure proident. Exercitation anim nisi voluptate irure ipsum eiusmod labore excepteur mollit ut laboris occaecat aliquip. Quis ipsum adipisicing duis dolor cillum labore reprehenderit. Minim mollit velit esse mollit laborum magna labore proident exercitation laboris. Esse velit ipsum labore quis labore in aute cupidatat amet tempor id est enim adipisicing.\r\n",
+    "BookPurchasePrice": 70.71,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "BookCreateDate": "2019-11-30",
+    "BookLastUpdated": "2020-05-20",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Hatfield Brainquil",
+    "BookText": "Ea cupidatat proident est proident sint. Aliquip aute minim adipisicing ad id laborum minim excepteur exercitation. Incididunt officia enim sint velit ipsum occaecat fugiat magna ea cillum mollit. Proident magna officia aute ea irure incididunt reprehenderit ea minim consequat.\r\n",
+    "BookPurchasePrice": 26.14,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "BookCreateDate": "2019-11-26",
+    "BookLastUpdated": "2020-05-02",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Barton Pholio",
+    "BookText": "Qui laboris id deserunt id deserunt consectetur sunt aliqua occaecat ut exercitation. Excepteur enim et incididunt reprehenderit minim est eu consequat et laboris eu officia magna ad. Nisi velit eiusmod sint id qui sit aliquip in. Consectetur laborum minim eiusmod est est id laboris consequat voluptate laborum nisi mollit. Incididunt nisi qui occaecat eu incididunt est et labore labore. Velit et adipisicing nostrud quis est.\r\n",
+    "BookPurchasePrice": 94.78,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "BookCreateDate": "2019-05-20",
+    "BookLastUpdated": "2020-06-20",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Hickman Fishland",
+    "BookText": "Aliqua velit sit irure mollit excepteur ipsum. Nulla dolor dolor est nostrud irure adipisicing fugiat aliquip mollit labore sint sint adipisicing. Commodo nostrud quis irure mollit est ullamco incididunt cupidatat eu. Enim laborum ullamco anim est dolore ullamco Lorem est nisi pariatur dolore cillum duis laborum. Labore excepteur ex excepteur quis laborum in officia eu.\r\n",
+    "BookPurchasePrice": 55.01,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/54.jpg",
+    "BookCreateDate": "2020-06-23",
+    "BookLastUpdated": "2020-05-13",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Levy Bicol",
+    "BookText": "Lorem cillum ipsum magna excepteur ullamco ex cupidatat nisi. Aute culpa ex duis aliquip est ullamco veniam. Qui incididunt sit consectetur aute sint aute exercitation consequat irure irure cupidatat dolor. Tempor ex quis nulla ad ad occaecat nisi id anim cupidatat commodo enim aliqua elit. Eiusmod Lorem excepteur magna nisi aliqua laborum quis occaecat consectetur ex cillum sunt cupidatat enim.\r\n",
+    "BookPurchasePrice": 26.92,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/93.jpg",
+    "BookCreateDate": "2019-07-10",
+    "BookLastUpdated": "2020-05-21",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Rios Recognia",
+    "BookText": "Adipisicing sit elit Lorem deserunt. Sunt deserunt excepteur consequat magna. Pariatur exercitation dolore et irure exercitation magna occaecat qui non. Magna nostrud dolor Lorem incididunt excepteur mollit velit reprehenderit eiusmod ex. Est est dolor nisi duis. Ex dolore dolor nulla Lorem commodo non deserunt velit duis voluptate ea dolor ut velit. Fugiat esse duis tempor anim.\r\n",
+    "BookPurchasePrice": 30.37,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "BookCreateDate": "2019-02-24",
+    "BookLastUpdated": "2020-05-25",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Webb Ontality",
+    "BookText": "Sint nostrud incididunt eiusmod incididunt nulla reprehenderit. Reprehenderit minim enim cillum est minim et ipsum irure dolor ea adipisicing aliquip dolor amet. Laborum sint velit officia sit anim ad exercitation incididunt proident fugiat aliquip elit officia nisi. Nulla ex adipisicing reprehenderit nulla quis duis pariatur reprehenderit laboris commodo cillum. Sunt sunt tempor amet qui nisi ipsum nisi ipsum reprehenderit. Amet id exercitation culpa ut incididunt officia consectetur. Tempor id non consequat occaecat in esse amet nostrud.\r\n",
+    "BookPurchasePrice": 28.84,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "BookCreateDate": "2020-02-16",
+    "BookLastUpdated": "2020-06-13",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Simon Qualitex",
+    "BookText": "Officia nisi mollit dolore voluptate dolore consectetur aliquip duis ullamco mollit excepteur elit. Tempor sint pariatur do tempor irure anim aliqua ipsum. Aliqua dolore dolore elit consectetur exercitation elit Lorem cillum. Nostrud anim est exercitation fugiat duis irure eu aliquip laborum aliqua occaecat. Ut ullamco quis nulla est reprehenderit dolore sit consectetur incididunt aute veniam aute. Mollit labore ut adipisicing proident dolor anim officia pariatur reprehenderit nulla cupidatat nostrud. Est tempor fugiat est non labore nulla officia deserunt proident occaecat.\r\n",
+    "BookPurchasePrice": 57.75,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/84.jpg",
+    "BookCreateDate": "2019-06-27",
+    "BookLastUpdated": "2020-06-01",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Paul Nitracyr",
+    "BookText": "Consectetur consequat qui esse consectetur et tempor amet. Consequat pariatur quis consequat sunt. Non velit mollit laboris sunt Lorem voluptate consequat esse. Sint ex id laboris mollit eiusmod ullamco nostrud qui et amet. Ut minim nostrud consectetur reprehenderit elit. Dolor duis nisi irure laborum ex ut magna adipisicing consectetur in.\r\n",
+    "BookPurchasePrice": 85.47,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "BookCreateDate": "2019-10-23",
+    "BookLastUpdated": "2020-05-09",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Hawkins Ginkle",
+    "BookText": "Quis aliqua commodo do ipsum consectetur ut ipsum non qui irure nisi. Eu consequat et quis minim ex consequat id nisi consequat esse velit consequat aute. Occaecat excepteur officia ex pariatur reprehenderit nisi consectetur consequat.\r\n",
+    "BookPurchasePrice": 37.3,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/21.jpg",
+    "BookCreateDate": "2019-12-08",
+    "BookLastUpdated": "2020-06-11",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Montoya Bizmatic",
+    "BookText": "Voluptate id ad aute adipisicing dolore consectetur in duis dolore ea nostrud sint adipisicing. Occaecat in culpa minim occaecat aute tempor duis. Est mollit non irure mollit excepteur consequat velit minim tempor cillum velit. Ipsum aliqua tempor sit reprehenderit duis laborum aliqua consectetur ipsum elit. Dolor pariatur ea cupidatat tempor. Pariatur duis nostrud labore elit quis magna ut.\r\n",
+    "BookPurchasePrice": 37.75,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "BookCreateDate": "2019-09-05",
+    "BookLastUpdated": "2020-05-17",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Wheeler Ceprene",
+    "BookText": "Do elit eu tempor irure. Qui est tempor aliqua laboris reprehenderit elit sit mollit quis nostrud amet. Sunt officia occaecat officia amet. In ex et ex sint aute cupidatat deserunt mollit. Labore sint occaecat minim laboris est velit dolore id.\r\n",
+    "BookPurchasePrice": 29.14,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/91.jpg",
+    "BookCreateDate": "2019-10-29",
+    "BookLastUpdated": "2020-06-02",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Clayton Kneedles",
+    "BookText": "Excepteur excepteur laborum reprehenderit id esse sunt pariatur dolore commodo excepteur. Nisi dolor aute nisi ex. Reprehenderit eiusmod cupidatat adipisicing duis velit. Id elit non ad velit labore ad labore.\r\n",
+    "BookPurchasePrice": 33.28,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "BookCreateDate": "2019-05-06",
+    "BookLastUpdated": "2020-05-09",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Green Deviltoe",
+    "BookText": "Exercitation excepteur et eiusmod ullamco fugiat magna adipisicing fugiat duis reprehenderit exercitation et. Aliqua ut ad aliqua excepteur eu. Reprehenderit deserunt excepteur laborum magna aliquip ea officia deserunt magna excepteur eu.\r\n",
+    "BookPurchasePrice": 87.56,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "BookCreateDate": "2019-02-14",
+    "BookLastUpdated": "2020-05-04",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Humphrey Mantro",
+    "BookText": "In mollit quis veniam esse pariatur sint et reprehenderit labore duis. Sint labore veniam do nulla fugiat elit fugiat nulla ea cillum. Irure duis esse et do dolore occaecat consequat aute ad ex commodo excepteur anim. Amet cillum veniam nisi ut eiusmod ipsum anim Lorem amet.\r\n",
+    "BookPurchasePrice": 86.59,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "BookCreateDate": "2019-09-17",
+    "BookLastUpdated": "2020-05-27",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Cherry Corepan",
+    "BookText": "Excepteur aute excepteur aute dolore deserunt ex qui dolore ullamco aliqua. Quis velit ipsum ex occaecat ex occaecat consequat aliqua aliquip dolor et incididunt tempor. Nostrud commodo tempor quis veniam nulla eu aliqua consequat mollit velit mollit. Deserunt aliqua officia ut fugiat id culpa sint. Laborum esse minim esse id. Sunt irure ad esse aliquip deserunt labore nulla excepteur est velit minim dolore aute. Commodo Lorem magna minim veniam sint id aliqua aute eiusmod.\r\n",
+    "BookPurchasePrice": 28.55,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "BookCreateDate": "2019-10-02",
+    "BookLastUpdated": "2020-05-29",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Alexander Caxt",
+    "BookText": "Pariatur dolor quis sunt duis. Ullamco enim ad dolore sint irure laboris magna minim id non officia minim. Veniam culpa laborum nisi et fugiat. Incididunt voluptate irure esse duis excepteur do in labore occaecat quis elit do. Adipisicing Lorem tempor cupidatat ut aliqua sit. Reprehenderit tempor eu commodo ipsum consequat Lorem Lorem proident adipisicing. Nulla quis elit commodo tempor adipisicing tempor officia sit Lorem do sunt.\r\n",
+    "BookPurchasePrice": 24.15,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/51.jpg",
+    "BookCreateDate": "2019-03-01",
+    "BookLastUpdated": "2020-06-07",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Medina Tetak",
+    "BookText": "Ad qui anim consequat ut anim proident dolor anim proident laborum Lorem. Tempor in nulla consectetur irure tempor pariatur ad in. Enim nostrud eu voluptate reprehenderit ex minim ea dolor. Culpa tempor laboris aute cupidatat minim exercitation do velit exercitation amet culpa incididunt sit nisi.\r\n",
+    "BookPurchasePrice": 55.52,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "BookCreateDate": "2020-06-15",
+    "BookLastUpdated": "2020-06-08",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Hooper Daisu",
+    "BookText": "Ut esse elit do aute minim velit voluptate aute. Mollit esse reprehenderit velit laboris laboris nostrud veniam enim ipsum cupidatat laboris incididunt irure incididunt. Nisi esse aliquip tempor amet aliquip consequat esse cupidatat Lorem excepteur elit eiusmod. Laboris amet nisi non cillum fugiat ex aute aliqua fugiat proident aute. In culpa deserunt id non aliquip sint enim commodo labore elit anim minim cupidatat. Velit labore duis aliqua aliquip commodo ad duis sint ex minim ullamco. Exercitation id sint consequat adipisicing voluptate ut commodo excepteur reprehenderit labore incididunt amet.\r\n",
+    "BookPurchasePrice": 98.65,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "BookCreateDate": "2020-05-19",
+    "BookLastUpdated": "2020-05-22",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "May Exposa",
+    "BookText": "Sit ipsum sit sint deserunt voluptate amet irure non. Cillum in eu nostrud laboris fugiat sunt proident magna ad sint sit consequat elit. Pariatur laboris labore pariatur laboris commodo consequat eiusmod irure sit proident ea. Ullamco pariatur ut reprehenderit proident dolore elit sunt irure laborum. Do cupidatat culpa ex ullamco.\r\n",
+    "BookPurchasePrice": 70.84,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "BookCreateDate": "2020-03-27",
+    "BookLastUpdated": "2020-06-27",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Chambers Fanfare",
+    "BookText": "Ipsum aliquip nulla est qui adipisicing veniam mollit do aliqua. Cupidatat quis officia nostrud eu consectetur voluptate minim labore voluptate excepteur nulla culpa deserunt. Laboris nulla officia enim ad amet culpa proident consequat officia sunt labore dolor excepteur in. Voluptate magna voluptate fugiat anim nostrud nulla sunt enim id anim nulla minim in. Occaecat consectetur voluptate laborum adipisicing mollit non sunt sit voluptate culpa consectetur. Ad veniam ea exercitation mollit officia aliquip qui. Nisi velit consectetur Lorem duis pariatur deserunt et tempor aliqua et irure.\r\n",
+    "BookPurchasePrice": 61.22,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "BookCreateDate": "2020-04-05",
+    "BookLastUpdated": "2020-05-04",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Hopper Netility",
+    "BookText": "Quis deserunt ad proident labore ea consectetur laboris eu Lorem. Ea mollit tempor sunt dolore commodo proident. Quis exercitation proident est dolor esse enim culpa Lorem elit.\r\n",
+    "BookPurchasePrice": 28.39,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "BookCreateDate": "2019-05-09",
+    "BookLastUpdated": "2020-06-01",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Garcia Shopabout",
+    "BookText": "Deserunt cupidatat dolor do minim. Dolor elit ipsum do quis adipisicing ex pariatur. Eu aute aute nisi eu do velit est cupidatat. Nisi dolor anim pariatur Lorem ea adipisicing. Proident incididunt et reprehenderit ipsum amet irure aliquip dolor. Laboris aliquip occaecat deserunt aliquip elit tempor nisi Lorem irure id.\r\n",
+    "BookPurchasePrice": 51.8,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "BookCreateDate": "2019-10-08",
+    "BookLastUpdated": "2020-05-03",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Robertson Marqet",
+    "BookText": "Duis in pariatur minim qui reprehenderit nostrud anim aliqua dolor est sunt officia. Tempor labore cupidatat sint proident duis minim cillum commodo. Est cupidatat nulla eu ad non tempor non ex exercitation qui. Sit minim proident ad laborum aute ea enim amet aute. Laboris ex do dolore laboris ut duis amet eiusmod quis sunt sit nostrud commodo sit. Nulla nisi reprehenderit sunt nisi.\r\n",
+    "BookPurchasePrice": 44.36,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "BookCreateDate": "2020-04-14",
+    "BookLastUpdated": "2020-06-07",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Parker Tellifly",
+    "BookText": "Voluptate aliqua aliqua ad minim fugiat minim ullamco ad ipsum esse proident esse. Ut elit Lorem anim qui qui sit consequat enim. Irure eu excepteur excepteur eu culpa tempor laboris quis laboris. Sunt dolor velit velit anim nisi nulla elit aliquip duis do adipisicing.\r\n",
+    "BookPurchasePrice": 39.54,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "BookCreateDate": "2019-07-17",
+    "BookLastUpdated": "2020-05-29",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Cooke Uncorp",
+    "BookText": "Duis tempor veniam amet ad commodo ad nisi mollit aliquip eiusmod incididunt dolore irure cillum. Culpa enim veniam consequat qui nostrud incididunt enim dolore reprehenderit dolore ad excepteur consectetur. Incididunt dolore quis ad magna mollit ut exercitation. Velit do sunt ut proident nisi fugiat. Veniam in in amet ipsum sint mollit Lorem. Ad consequat ipsum mollit laborum consectetur excepteur do laboris pariatur anim.\r\n",
+    "BookPurchasePrice": 87.24,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/76.jpg",
+    "BookCreateDate": "2019-02-17",
+    "BookLastUpdated": "2020-06-17",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Mayer Fiberox",
+    "BookText": "Pariatur aliqua deserunt nisi voluptate non sint pariatur dolore eiusmod voluptate ea nostrud duis eu. Et aute elit sint reprehenderit nostrud exercitation laboris ut cillum laborum aliquip exercitation velit. Aliqua ipsum nostrud consectetur dolore. Anim incididunt nisi ipsum occaecat elit do consectetur eu ut esse aliqua eu. Sunt non proident consectetur laboris velit excepteur veniam tempor duis do nisi ad. Id tempor est anim magna nulla do.\r\n",
+    "BookPurchasePrice": 65.75,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "BookCreateDate": "2020-06-13",
+    "BookLastUpdated": "2020-06-19",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Kirkland Bleendot",
+    "BookText": "Occaecat commodo ex cillum commodo fugiat nulla. Occaecat et occaecat nisi enim mollit. Deserunt dolor et enim culpa esse esse. Adipisicing aute eu occaecat amet adipisicing labore reprehenderit labore amet proident ut. Eiusmod qui ullamco enim eiusmod aliquip cillum et eiusmod Lorem fugiat. Esse labore nostrud veniam eiusmod in minim elit labore Lorem Lorem cupidatat. Dolor velit do Lorem deserunt adipisicing.\r\n",
+    "BookPurchasePrice": 43.14,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "BookCreateDate": "2019-07-29",
+    "BookLastUpdated": "2020-06-21",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Garrett Orbalix",
+    "BookText": "Id culpa duis cupidatat excepteur velit laboris non eu proident aliquip do. Excepteur excepteur amet cillum amet nostrud occaecat incididunt. In voluptate sint eu sint minim mollit aute est id reprehenderit mollit occaecat.\r\n",
+    "BookPurchasePrice": 68.91,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "BookCreateDate": "2020-05-01",
+    "BookLastUpdated": "2020-05-29",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Wells Extragene",
+    "BookText": "Laboris deserunt est sunt enim. Cillum duis est in aliquip duis culpa ullamco minim cupidatat eiusmod consequat. Amet nostrud et nisi labore nulla mollit laboris.\r\n",
+    "BookPurchasePrice": 77.99,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "BookCreateDate": "2020-03-19",
+    "BookLastUpdated": "2020-06-26",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Bates Datagene",
+    "BookText": "Adipisicing excepteur nisi pariatur magna magna ad pariatur magna ut. Irure culpa culpa ex minim. Magna do sunt ex cupidatat enim dolore. Aute minim eiusmod irure cillum exercitation ea.\r\n",
+    "BookPurchasePrice": 75.46,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "BookCreateDate": "2019-06-06",
+    "BookLastUpdated": "2020-06-10",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Dunn Cinaster",
+    "BookText": "Veniam aute magna veniam esse velit amet laborum enim veniam anim. Incididunt consequat voluptate ea aliqua qui dolore. Nulla ullamco proident elit enim elit mollit duis proident consectetur enim ea excepteur. Cillum commodo est mollit exercitation minim. Aliqua laboris velit laboris proident incididunt veniam eu magna fugiat ad. Non cillum minim nulla duis tempor amet nisi reprehenderit. Commodo id adipisicing amet Lorem.\r\n",
+    "BookPurchasePrice": 59.6,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "BookCreateDate": "2019-05-18",
+    "BookLastUpdated": "2020-06-20",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Mooney Xanide",
+    "BookText": "Aliqua est non incididunt fugiat enim velit commodo. Consequat Lorem mollit elit exercitation adipisicing cillum cillum cillum ullamco. Enim minim officia id commodo non. Ut aliqua non adipisicing elit nostrud mollit dolore et commodo minim occaecat. Id ipsum magna ad dolor dolor culpa cillum culpa consectetur labore id. Proident mollit minim officia ex laboris voluptate irure ad et quis aliqua do laborum.\r\n",
+    "BookPurchasePrice": 58.5,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "BookCreateDate": "2020-01-01",
+    "BookLastUpdated": "2020-06-03",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Weber Gushkool",
+    "BookText": "Ea veniam laborum qui mollit. Quis id culpa consectetur pariatur sit. Nisi consectetur laborum proident ullamco aliquip ut. Ea sit consectetur officia aliqua ullamco labore ea elit et quis sit irure. Tempor sunt eu amet consequat deserunt ea elit aute culpa cillum. Tempor incididunt anim pariatur velit irure qui sint reprehenderit aliqua esse incididunt.\r\n",
+    "BookPurchasePrice": 51.69,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "BookCreateDate": "2019-01-08",
+    "BookLastUpdated": "2020-06-11",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Rodriquez Architax",
+    "BookText": "Nisi reprehenderit proident laboris ad duis sit. Consectetur eiusmod irure sit proident quis voluptate et aute enim ullamco. Ut quis adipisicing consequat culpa laboris amet sunt officia est sint anim ut. Laboris incididunt sit sint enim ullamco incididunt reprehenderit esse proident quis ad quis exercitation id. Adipisicing fugiat est commodo anim quis sit nostrud ut sunt nostrud cillum pariatur. Do eu amet reprehenderit ut nostrud adipisicing eiusmod anim consectetur est velit minim tempor aliquip.\r\n",
+    "BookPurchasePrice": 23.05,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "BookCreateDate": "2019-07-19",
+    "BookLastUpdated": "2020-05-11",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Patrick Enervate",
+    "BookText": "Eiusmod irure eu do do ad eu cillum occaecat fugiat officia. Pariatur quis minim sit ipsum aute amet voluptate pariatur dolore dolore sit ut sit. Duis cupidatat non occaecat ipsum enim voluptate veniam velit reprehenderit duis ad anim. Est ad voluptate cupidatat ipsum ut consequat deserunt minim. Pariatur voluptate sint irure reprehenderit nulla dolore eu excepteur aute eiusmod culpa duis nulla. In adipisicing consequat sit eiusmod commodo laboris magna cupidatat ex enim ipsum ea labore ea. Dolor velit ad fugiat voluptate cupidatat culpa sit laborum eiusmod exercitation.\r\n",
+    "BookPurchasePrice": 28.97,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "BookCreateDate": "2020-01-13",
+    "BookLastUpdated": "2020-06-17",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Morin Imageflow",
+    "BookText": "Occaecat labore in aliqua duis ad aliqua ad duis aliquip Lorem tempor. Quis nisi qui id sunt ex minim anim exercitation aliquip aliqua ut. Nisi nisi incididunt culpa occaecat Lorem ullamco reprehenderit nulla laboris sint. Ut Lorem voluptate aute in quis mollit aliquip et elit esse consectetur pariatur magna. Qui id quis pariatur excepteur in reprehenderit minim.\r\n",
+    "BookPurchasePrice": 71.64,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "BookCreateDate": "2020-05-12",
+    "BookLastUpdated": "2020-06-23",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Keith Decratex",
+    "BookText": "Occaecat amet in qui proident commodo ea voluptate excepteur sunt laborum ut Lorem nisi. Duis dolor eiusmod mollit amet irure ullamco incididunt dolore. Laborum aute magna cillum cillum reprehenderit est.\r\n",
+    "BookPurchasePrice": 59.59,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/87.jpg",
+    "BookCreateDate": "2019-09-05",
+    "BookLastUpdated": "2020-06-10",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Kinney Spacewax",
+    "BookText": "Anim duis Lorem ea incididunt aute eiusmod id qui ex dolor. Commodo tempor labore in culpa magna est do laboris adipisicing sunt cupidatat sint proident. Incididunt pariatur laborum quis proident Lorem ad laborum excepteur nulla commodo non voluptate minim cillum. Qui non voluptate incididunt fugiat commodo commodo exercitation et sunt quis culpa aliqua cillum. Dolore ex anim cillum ipsum aliquip enim incididunt minim voluptate tempor commodo quis. Aliquip aliqua proident mollit nisi voluptate consequat laboris cupidatat excepteur consequat aliqua esse magna. Id duis Lorem consequat irure nisi fugiat et eiusmod laboris consectetur reprehenderit consequat ut veniam.\r\n",
+    "BookPurchasePrice": 55.64,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "BookCreateDate": "2019-04-14",
+    "BookLastUpdated": "2020-06-20",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Mccoy Recrisys",
+    "BookText": "Qui ut cillum incididunt laboris mollit in sit culpa nulla aliquip labore laboris enim. Duis eiusmod esse officia mollit ullamco aliquip Lorem occaecat magna duis in cupidatat cillum sit. In consequat esse veniam reprehenderit eu sint nisi. Esse culpa exercitation ea veniam dolor dolor. Nisi magna nostrud labore reprehenderit deserunt proident elit commodo proident mollit officia nostrud.\r\n",
+    "BookPurchasePrice": 54.67,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "BookCreateDate": "2020-06-07",
+    "BookLastUpdated": "2020-05-11",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Blake Zilladyne",
+    "BookText": "Sit in sit laboris pariatur elit irure cillum occaecat nulla quis. Consectetur duis dolor aute aute excepteur non deserunt excepteur adipisicing. Pariatur eiusmod magna cupidatat duis laborum elit cillum nisi nisi tempor labore. Tempor consequat mollit exercitation nisi ea nulla nostrud cupidatat. Qui exercitation in velit veniam tempor minim fugiat incididunt quis laboris enim.\r\n",
+    "BookPurchasePrice": 37.72,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "BookCreateDate": "2020-03-31",
+    "BookLastUpdated": "2020-05-09",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Walsh Qot",
+    "BookText": "Consequat nostrud aliqua laboris occaecat est sit exercitation ut velit est magna proident sunt. Cupidatat ex fugiat elit ullamco velit tempor minim officia sint aute ad ad ipsum. Officia ex eu aliqua ea exercitation consectetur. Non aute cillum laboris id qui tempor nulla minim excepteur eu fugiat laboris. Enim dolore excepteur mollit mollit ad dolor magna incididunt.\r\n",
+    "BookPurchasePrice": 67.09,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/9.jpg",
+    "BookCreateDate": "2019-03-11",
+    "BookLastUpdated": "2020-06-20",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Austin Bluplanet",
+    "BookText": "Tempor Lorem aute sunt pariatur ut ut. Officia magna proident culpa dolor exercitation do ipsum aliquip voluptate fugiat cupidatat magna quis. Minim qui dolore ipsum anim irure adipisicing ullamco laborum. Culpa elit sunt qui nulla consectetur culpa tempor exercitation.\r\n",
+    "BookPurchasePrice": 91.39,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/79.jpg",
+    "BookCreateDate": "2020-01-26",
+    "BookLastUpdated": "2020-06-14",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Conway Isotronic",
+    "BookText": "Ut laborum commodo magna dolor mollit non non consectetur fugiat consectetur cillum ad. Lorem labore duis adipisicing ipsum sit ipsum in. Veniam mollit sit sit esse aute.\r\n",
+    "BookPurchasePrice": 78.23,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "BookCreateDate": "2020-03-03",
+    "BookLastUpdated": "2020-05-13",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Mayo Kineticut",
+    "BookText": "Eu pariatur exercitation mollit ad ex ea tempor sint consequat. Ad irure laboris eiusmod do. Excepteur aliquip laboris cupidatat dolore ea quis excepteur laborum veniam esse mollit.\r\n",
+    "BookPurchasePrice": 42.85,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "BookCreateDate": "2019-11-03",
+    "BookLastUpdated": "2020-06-19",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Rivas Boilcat",
+    "BookText": "Non velit dolore sint dolore ullamco anim ea tempor minim adipisicing labore. Mollit non consequat est pariatur duis exercitation. Nostrud commodo quis est nostrud in deserunt laboris reprehenderit sunt ullamco in voluptate. Adipisicing sint deserunt reprehenderit eiusmod. Incididunt labore elit cupidatat adipisicing. Qui sint minim mollit eiusmod ad est enim aliqua consequat. In velit exercitation incididunt ipsum dolor cupidatat ullamco laboris eu deserunt non eiusmod.\r\n",
+    "BookPurchasePrice": 24.42,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "BookCreateDate": "2019-10-22",
+    "BookLastUpdated": "2020-05-21",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Delaney Isologica",
+    "BookText": "Tempor proident fugiat cillum mollit non. Ipsum deserunt enim adipisicing mollit. Sint veniam eiusmod voluptate voluptate reprehenderit duis ea et nulla minim reprehenderit ad. Consequat dolor voluptate fugiat excepteur proident et labore nulla aliqua anim ut magna. Laborum deserunt sunt cupidatat mollit nulla dolore.\r\n",
+    "BookPurchasePrice": 58.61,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "BookCreateDate": "2019-01-30",
+    "BookLastUpdated": "2020-06-10",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Price Lovepad",
+    "BookText": "Consequat id dolore elit aliqua mollit dolore amet officia in ut nostrud commodo. Incididunt non irure laboris enim ut sunt. Consequat duis eu in mollit amet qui quis pariatur consequat quis ullamco fugiat elit culpa. Consequat ipsum non sint ea ex ea fugiat ad qui mollit labore. Quis ea magna velit incididunt velit ex deserunt amet mollit ullamco voluptate eiusmod nisi nisi. Dolore deserunt ea eiusmod elit enim. Dolore consequat excepteur ut proident incididunt tempor.\r\n",
+    "BookPurchasePrice": 24.37,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/59.jpg",
+    "BookCreateDate": "2020-01-10",
+    "BookLastUpdated": "2020-05-09",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Tyler Infotrips",
+    "BookText": "Voluptate tempor sit cillum ea ad culpa. Commodo enim mollit cillum commodo irure non magna cupidatat sunt adipisicing ipsum excepteur. Cupidatat cupidatat velit officia excepteur amet eiusmod eu. Culpa consequat non deserunt elit nulla aliquip minim eu officia elit exercitation.\r\n",
+    "BookPurchasePrice": 25.86,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "BookCreateDate": "2019-11-05",
+    "BookLastUpdated": "2020-05-09",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Perry Krag",
+    "BookText": "Id ea culpa eu qui culpa. Duis esse consectetur officia elit incididunt consectetur elit nostrud aute duis Lorem. Est amet pariatur cupidatat ipsum proident magna voluptate. Mollit ullamco excepteur ipsum elit nisi velit proident in est.\r\n",
+    "BookPurchasePrice": 91.35,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/29.jpg",
+    "BookCreateDate": "2019-05-16",
+    "BookLastUpdated": "2020-05-19",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Lambert Turnabout",
+    "BookText": "Fugiat in ipsum reprehenderit culpa aliqua aute proident. Aliquip commodo ex elit esse eiusmod minim nulla culpa labore tempor nulla quis pariatur. Sunt incididunt aliquip sit eiusmod ad Lorem esse.\r\n",
+    "BookPurchasePrice": 84.4,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "BookCreateDate": "2020-05-02",
+    "BookLastUpdated": "2020-05-13",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Gallegos Anarco",
+    "BookText": "Fugiat dolor consequat aliquip velit eu occaecat labore ea. Exercitation irure exercitation tempor nulla veniam Lorem. Quis deserunt ex aliqua occaecat voluptate enim non dolor occaecat incididunt ut. Dolor pariatur consectetur consectetur cillum veniam velit excepteur dolor nisi magna. Nostrud voluptate pariatur enim sunt aliquip officia non occaecat adipisicing voluptate. Consequat commodo ullamco et deserunt id in exercitation duis duis duis amet nulla.\r\n",
+    "BookPurchasePrice": 66.94,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "BookCreateDate": "2019-10-16",
+    "BookLastUpdated": "2020-05-21",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Reilly Krog",
+    "BookText": "Nisi mollit veniam et excepteur et veniam dolore consectetur amet irure ad veniam. Velit irure ex labore sit magna deserunt enim in quis in elit. Ullamco pariatur proident sunt elit sint mollit cupidatat reprehenderit adipisicing enim adipisicing eiusmod. Esse amet id labore sit irure et laborum aute.\r\n",
+    "BookPurchasePrice": 25.21,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "BookCreateDate": "2020-02-23",
+    "BookLastUpdated": "2020-06-13",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Zimmerman Digigen",
+    "BookText": "Aute fugiat ut dolore anim officia nulla adipisicing aliquip do ipsum adipisicing. Nulla ex in fugiat incididunt deserunt Lorem eu Lorem elit proident. Irure laborum ex officia irure mollit cupidatat occaecat veniam officia dolor. Fugiat ullamco est duis voluptate.\r\n",
+    "BookPurchasePrice": 68.25,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/86.jpg",
+    "BookCreateDate": "2019-01-13",
+    "BookLastUpdated": "2020-06-05",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Olsen Ebidco",
+    "BookText": "Id ut anim qui est irure in exercitation nostrud voluptate. Deserunt laborum cupidatat exercitation culpa nulla magna aute in minim sint sint. Nostrud amet anim magna laboris. Ex occaecat consectetur consectetur tempor deserunt ut proident incididunt eu sint irure veniam anim. Qui ad consectetur voluptate labore aliqua eiusmod labore esse. Id enim aliquip proident officia velit esse minim occaecat. Anim minim aliqua anim deserunt aliqua.\r\n",
+    "BookPurchasePrice": 66.1,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/29.jpg",
+    "BookCreateDate": "2020-03-17",
+    "BookLastUpdated": "2020-06-06",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Randolph Furnitech",
+    "BookText": "Id elit ex id duis commodo ex ad adipisicing ut elit commodo adipisicing labore. Voluptate excepteur deserunt voluptate ut id proident et veniam ullamco minim occaecat est ex occaecat. Elit exercitation quis ut tempor minim aliqua elit reprehenderit ad officia consectetur dolor sunt. Veniam quis labore officia elit proident. Consectetur officia elit do culpa amet adipisicing ex cupidatat irure labore aliquip cupidatat id culpa.\r\n",
+    "BookPurchasePrice": 87.32,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "BookCreateDate": "2019-10-12",
+    "BookLastUpdated": "2020-05-12",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Oneil Luxuria",
+    "BookText": "Ipsum laborum tempor id et laboris do ex id ea minim sit excepteur. Mollit aute exercitation laboris minim irure. Minim magna quis enim in pariatur occaecat officia aliqua proident voluptate laboris. Aute ipsum proident laborum est mollit sit veniam non eiusmod tempor quis ipsum laborum. Exercitation fugiat minim qui incididunt consectetur laboris commodo.\r\n",
+    "BookPurchasePrice": 54.18,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "BookCreateDate": "2020-01-16",
+    "BookLastUpdated": "2020-05-23",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Pickett Zork",
+    "BookText": "Excepteur eu culpa eu esse nisi officia mollit occaecat officia laborum aliquip commodo aute aliqua. Laborum ut magna veniam voluptate aute sunt eu consectetur occaecat labore. Culpa do adipisicing commodo fugiat nisi et officia minim deserunt voluptate incididunt ad culpa laborum.\r\n",
+    "BookPurchasePrice": 32.28,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "BookCreateDate": "2020-02-12",
+    "BookLastUpdated": "2020-06-25",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Moreno Isologix",
+    "BookText": "Cillum aute eiusmod cillum esse occaecat sit non consequat aute sint ut. Anim velit ut sint nisi sint laboris aliquip elit do ex in veniam consequat sunt. Proident nisi consequat in nulla nulla. Laboris dolore cillum veniam veniam enim ad voluptate. Nostrud pariatur elit consequat labore aute. Tempor laboris consectetur qui anim excepteur et cupidatat consequat aliqua.\r\n",
+    "BookPurchasePrice": 76.37,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "BookCreateDate": "2020-04-28",
+    "BookLastUpdated": "2020-06-08",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Nelson Corpulse",
+    "BookText": "Aliqua mollit eiusmod sit veniam. Fugiat deserunt veniam minim amet mollit amet dolore cupidatat. Pariatur aliqua excepteur officia enim labore sit do reprehenderit voluptate incididunt amet laborum labore.\r\n",
+    "BookPurchasePrice": 91.01,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "BookCreateDate": "2019-05-25",
+    "BookLastUpdated": "2020-06-07",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Francis Kegular",
+    "BookText": "Magna enim et labore ea do aliqua mollit commodo. Reprehenderit occaecat veniam eiusmod irure aliqua eu quis elit occaecat reprehenderit. Dolor laborum mollit eiusmod consequat et deserunt sit excepteur cillum reprehenderit laborum.\r\n",
+    "BookPurchasePrice": 31.33,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "BookCreateDate": "2019-11-25",
+    "BookLastUpdated": "2020-05-18",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Sparks Zipak",
+    "BookText": "Cillum veniam dolor cupidatat tempor aliquip. Sit dolor eiusmod excepteur aliquip dolore fugiat dolor reprehenderit duis nisi. Est nostrud dolor nisi est qui in ad non enim do consequat. Ipsum tempor voluptate est exercitation mollit sint et. Laboris veniam proident adipisicing cupidatat. Non voluptate esse laborum tempor mollit ea sunt eu anim est cillum nisi magna minim.\r\n",
+    "BookPurchasePrice": 29.75,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/54.jpg",
+    "BookCreateDate": "2019-01-15",
+    "BookLastUpdated": "2020-05-03",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Campos Bovis",
+    "BookText": "Ipsum eiusmod in cupidatat sunt consequat dolore anim ipsum amet elit. Dolore ea tempor et culpa laboris non laboris aliquip magna mollit elit officia minim. Enim esse veniam quis consectetur. Dolore veniam cillum cupidatat minim magna. Esse non et enim id sunt commodo do. Sint nostrud sint excepteur magna ipsum Lorem mollit in sunt. Nostrud exercitation id cupidatat qui incididunt non.\r\n",
+    "BookPurchasePrice": 44.88,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/99.jpg",
+    "BookCreateDate": "2019-11-09",
+    "BookLastUpdated": "2020-05-01",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Fowler Hawkster",
+    "BookText": "Consectetur enim eu est excepteur deserunt fugiat laboris. Exercitation reprehenderit aliquip ex aliqua proident veniam aliquip ipsum adipisicing Lorem eu labore aliquip. Irure Lorem elit culpa eu et consequat ea ex id. Consequat labore officia non labore cupidatat velit irure excepteur dolore. Pariatur duis proident aliquip et et mollit adipisicing qui Lorem.\r\n",
+    "BookPurchasePrice": 23.98,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "BookCreateDate": "2019-06-22",
+    "BookLastUpdated": "2020-05-20",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Velez Fleetmix",
+    "BookText": "Ad enim eiusmod sunt cillum et velit commodo proident dolor anim tempor duis adipisicing. Labore culpa tempor qui reprehenderit laborum enim magna et officia dolore enim sunt culpa. Ullamco aliqua consequat in qui ipsum commodo consequat laboris. Id duis et consectetur pariatur do laborum ipsum.\r\n",
+    "BookPurchasePrice": 42.34,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "BookCreateDate": "2019-08-02",
+    "BookLastUpdated": "2020-05-07",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Booth Zillactic",
+    "BookText": "Pariatur ullamco cillum nisi ut occaecat sint aliquip ipsum ex eu enim velit deserunt. Aute adipisicing dolor commodo ut proident magna cillum pariatur ex dolor sint. Elit labore minim aliqua quis id eu.\r\n",
+    "BookPurchasePrice": 45.58,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "BookCreateDate": "2019-02-23",
+    "BookLastUpdated": "2020-06-02",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Spence Turnling",
+    "BookText": "Non ad sit nostrud elit. Magna sunt est pariatur enim. Enim sit consectetur labore aute consequat minim irure nostrud veniam qui anim eiusmod. Magna ut anim esse incididunt dolore minim consectetur quis est ea dolore nulla laboris. Est do reprehenderit enim reprehenderit ut fugiat laboris qui dolor ex dolor id aute officia. Exercitation ex ex quis fugiat adipisicing cillum commodo consequat id laborum ea enim ex non.\r\n",
+    "BookPurchasePrice": 27.04,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/79.jpg",
+    "BookCreateDate": "2020-04-28",
+    "BookLastUpdated": "2020-06-05",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Tyson Kog",
+    "BookText": "Ipsum dolor Lorem enim incididunt reprehenderit quis mollit esse aliqua. Voluptate elit et labore ex duis veniam ut fugiat commodo veniam et excepteur. Quis commodo ut magna sint in eiusmod dolore ex ad elit dolore officia nisi. Veniam ullamco qui exercitation deserunt qui nostrud id velit enim qui duis mollit ut cupidatat. Nostrud culpa non amet cillum consectetur magna laborum tempor mollit sunt. Duis est amet eiusmod ut voluptate duis mollit aliquip consectetur ea culpa sunt sint consectetur.\r\n",
+    "BookPurchasePrice": 58.27,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/99.jpg",
+    "BookCreateDate": "2019-04-24",
+    "BookLastUpdated": "2020-06-22",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Blevins Malathion",
+    "BookText": "Consequat laboris officia ex irure. Mollit id culpa proident nisi dolore aliquip Lorem anim nisi commodo laborum exercitation. Est eu commodo enim veniam qui occaecat ex. Fugiat proident cupidatat magna et quis eu eiusmod est dolore fugiat in enim.\r\n",
+    "BookPurchasePrice": 35.8,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "BookCreateDate": "2020-05-29",
+    "BookLastUpdated": "2020-05-13",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Shepherd Rooforia",
+    "BookText": "Dolore enim eu minim incididunt dolor et ullamco qui sunt anim cillum pariatur quis. Dolore nisi labore est cillum nulla aliqua velit in dolor. Magna fugiat cillum tempor ut deserunt anim nostrud ad exercitation deserunt.\r\n",
+    "BookPurchasePrice": 79.13,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "BookCreateDate": "2019-07-30",
+    "BookLastUpdated": "2020-06-28",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Mcneil Ecolight",
+    "BookText": "Nisi velit deserunt adipisicing consectetur est cillum. Magna sunt eiusmod eu ea quis mollit. Anim adipisicing fugiat irure aliquip.\r\n",
+    "BookPurchasePrice": 73.08,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/59.jpg",
+    "BookCreateDate": "2019-06-13",
+    "BookLastUpdated": "2020-05-15",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Ware Zillidium",
+    "BookText": "Eiusmod Lorem enim eu culpa veniam esse. Velit pariatur id eu ipsum. Anim do est do ea exercitation irure.\r\n",
+    "BookPurchasePrice": 97.07,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "BookCreateDate": "2020-03-17",
+    "BookLastUpdated": "2020-06-10",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Spears Maroptic",
+    "BookText": "Elit laborum aliqua dolor aliquip sint Lorem adipisicing aliquip quis deserunt commodo. Eu adipisicing in aliqua dolor mollit occaecat. Reprehenderit eiusmod do consectetur dolor laboris officia mollit cillum ipsum. Ad anim ad laborum minim dolore nisi esse incididunt minim reprehenderit incididunt reprehenderit exercitation. Elit voluptate irure sit minim do est. Fugiat ex esse esse ut id quis consectetur ea labore enim pariatur irure reprehenderit ipsum.\r\n",
+    "BookPurchasePrice": 24.83,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/95.jpg",
+    "BookCreateDate": "2020-04-09",
+    "BookLastUpdated": "2020-06-14",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Cleveland Quantalia",
+    "BookText": "Ullamco consequat consectetur excepteur cupidatat labore laborum aute do duis sint. Aliqua ex ad reprehenderit eiusmod fugiat. Proident dolor sit non est ipsum. Est in commodo irure sit. Ut exercitation fugiat aliquip aliquip aliquip tempor laborum exercitation labore minim nisi dolor consequat non.\r\n",
+    "BookPurchasePrice": 80.86,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/95.jpg",
+    "BookCreateDate": "2020-03-07",
+    "BookLastUpdated": "2020-06-04",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Gallagher Zoinage",
+    "BookText": "Mollit incididunt irure sit incididunt ullamco ut velit est. Magna esse reprehenderit sit esse consequat cupidatat tempor minim. Reprehenderit esse exercitation et amet qui laboris ut elit consectetur sint ipsum. Magna reprehenderit sunt ex esse anim aliquip veniam ad. Culpa consequat sunt tempor dolore occaecat. Cupidatat nisi cupidatat incididunt excepteur enim. Veniam dolor fugiat excepteur elit velit in ullamco tempor aliqua.\r\n",
+    "BookPurchasePrice": 21.97,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "BookCreateDate": "2020-04-22",
+    "BookLastUpdated": "2020-06-07",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Foley Applidec",
+    "BookText": "Enim duis sint esse velit culpa. Deserunt anim proident commodo cillum est fugiat ut sit dolore laboris consectetur officia consectetur enim. Aliquip sunt irure officia laborum cillum. Consectetur aute minim ad ea ipsum nisi sunt. Nulla incididunt voluptate incididunt pariatur nisi. Sit incididunt amet qui laborum ut mollit.\r\n",
+    "BookPurchasePrice": 88.38,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "BookCreateDate": "2020-01-09",
+    "BookLastUpdated": "2020-05-25",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Gates Overplex",
+    "BookText": "Velit pariatur nostrud laboris mollit minim pariatur velit sint laboris excepteur aute. Elit ipsum ut amet do sunt sunt elit tempor anim aute esse sit commodo. Nulla ad occaecat laborum est ex consequat excepteur dolor sint ea ea.\r\n",
+    "BookPurchasePrice": 95.14,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/86.jpg",
+    "BookCreateDate": "2020-04-11",
+    "BookLastUpdated": "2020-05-12",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Ayala Ziore",
+    "BookText": "Ex nulla magna nulla consectetur culpa eiusmod officia eu commodo ut. Quis est do amet elit reprehenderit esse qui exercitation consectetur ullamco sunt anim est. Cupidatat sint mollit sit ex labore non pariatur sint proident excepteur fugiat. Nulla quis occaecat qui anim in id adipisicing qui labore. In dolor occaecat ullamco dolor officia proident sunt nulla Lorem. Et irure ad laboris aute ad proident do sint eu consequat laboris aliquip. Cillum veniam dolor quis dolore ut adipisicing tempor.\r\n",
+    "BookPurchasePrice": 47.27,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "BookCreateDate": "2019-04-13",
+    "BookLastUpdated": "2020-06-22",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Perez Isopop",
+    "BookText": "Tempor commodo dolor do mollit incididunt Lorem ipsum fugiat eu qui laborum ex. Irure eiusmod laboris consequat tempor velit veniam velit ut ullamco velit nostrud minim esse. Lorem eu ullamco proident sint ullamco veniam exercitation culpa. Qui ex occaecat minim est duis aute exercitation nisi excepteur enim. Quis enim velit aliqua Lorem aliqua eu ullamco irure. In ipsum proident occaecat fugiat do ad velit dolore eu est deserunt elit minim. Aliquip quis ex esse ut et deserunt consectetur anim in ipsum consectetur.\r\n",
+    "BookPurchasePrice": 70.44,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/15.jpg",
+    "BookCreateDate": "2019-04-12",
+    "BookLastUpdated": "2020-05-24",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Lindsay Frenex",
+    "BookText": "Proident reprehenderit laborum amet id proident culpa occaecat anim cupidatat duis sit. Qui ut laboris ut adipisicing cillum in consequat enim aliquip consequat commodo minim. Exercitation occaecat quis nostrud officia occaecat eu incididunt tempor consequat fugiat est.\r\n",
+    "BookPurchasePrice": 26.64,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/29.jpg",
+    "BookCreateDate": "2020-05-14",
+    "BookLastUpdated": "2020-05-27",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Mcfadden Insectus",
+    "BookText": "Nostrud id aliquip ullamco laboris laborum fugiat reprehenderit aliquip est aute ea. Enim ipsum nostrud ut anim eu. Consequat ipsum exercitation laboris duis voluptate ea ea ad proident cupidatat proident. Elit occaecat ad commodo id elit tempor est in eiusmod pariatur. In minim irure ullamco tempor aliqua est nisi et incididunt deserunt. Aliquip veniam Lorem culpa aute ea irure anim ex anim.\r\n",
+    "BookPurchasePrice": 80.61,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/99.jpg",
+    "BookCreateDate": "2019-08-06",
+    "BookLastUpdated": "2020-05-05",
+    "BookIsDeleted": 0
+  },
+  {
+    "BookName": "Gardner Orbixtar",
+    "BookText": "Ad quis eiusmod anim deserunt magna cillum qui qui qui. Pariatur dolore ut excepteur laborum. Ipsum dolor culpa ut nisi excepteur veniam eiusmod veniam consectetur cupidatat ut irure. Duis amet ad nisi et ex. Do fugiat ullamco reprehenderit fugiat labore do consectetur nisi laboris consectetur eiusmod. Ex do voluptate laboris laborum cillum. Nisi quis amet deserunt cillum quis id non ullamco.\r\n",
+    "BookPurchasePrice": 43.73,
+    "BookMarketingImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "BookCreateDate": "2020-01-04",
+    "BookLastUpdated": "2020-05-11",
+    "BookIsDeleted": 0
+  }
+]

@@ -18,3 +18,4 @@ C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Eu
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.DataAccess\obj\Debug\net5.0\ref\Euromonitor.DataAccess.dll
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.DataAccess\obj\Debug\net5.0\Euromonitor.DataAccess.pdb
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.DataAccess\obj\Debug\net5.0\Euromonitor.DataAccess.genruntimeconfig.cache
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.DataAccess\bin\Debug\net5.0\Data\BookSeedData.json
