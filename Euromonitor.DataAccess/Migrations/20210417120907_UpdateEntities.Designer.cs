@@ -4,20 +4,37 @@ using Euromonitor.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Euromonitor.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210417120907_UpdateEntities")]
+    partial class UpdateEntities
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.5")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("AppUserBook", b =>
+                {
+                    b.Property<int>("AppUsersId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("BooksId")
+                        .HasColumnType("int");
+
+                    b.HasKey("AppUsersId", "BooksId");
+
+                    b.HasIndex("BooksId");
+
+                    b.ToTable("AppUserBook");
+                });
 
             modelBuilder.Entity("Euromonitor.Models.AppUser", b =>
                 {
@@ -62,40 +79,7 @@ namespace Euromonitor.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("AppUser");
-                });
-
-            modelBuilder.Entity("Euromonitor.Models.AppUserBook", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("AppUserId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("BookId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("SubscriptionBookName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("SubscriptionDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("SubscriptionIsDeleted")
-                        .HasColumnType("int");
-
-                    b.Property<double>("SubscriptionPurchasePrice")
-                        .HasColumnType("float");
-
-                    b.Property<DateTime>("SubscriptionUnsubscribeDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("AppUserBook");
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("Euromonitor.Models.Book", b =>
@@ -127,7 +111,22 @@ namespace Euromonitor.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Book");
+                    b.ToTable("Books");
+                });
+
+            modelBuilder.Entity("AppUserBook", b =>
+                {
+                    b.HasOne("Euromonitor.Models.AppUser", null)
+                        .WithMany()
+                        .HasForeignKey("AppUsersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Euromonitor.Models.Book", null)
+                        .WithMany()
+                        .HasForeignKey("BooksId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

@@ -9,23 +9,23 @@ namespace Euromonitor.Models
 {
     public class Book
     {
-        public Book()
-        {
-            this.AppUsers = new HashSet<AppUser>();
-        }
 
         [Key] //Sets as PK and sets to Identity
         public int Id { get; set; }
 
         [Required]
+        public string BookName { get; set; }
+
+        [Required]
         public string BookText { get; set; }
 
         [Required]
-        public double Price { get; set; }
+        public double BookPurchasePrice { get; set; }
 
-        /*Configure Many to Many relationship in EF-Core
-        *Collection Navigation Property
-       */
-        public virtual ICollection<AppUser> AppUsers { get; set; }
+        public DateTime BookCreateDate { get; set; } = DateTime.Now;
+
+        public DateTime BookLastUpdated { get; set; } = DateTime.Now;
+
+        public int BookIsDeleted { get; set; }
     }
 }

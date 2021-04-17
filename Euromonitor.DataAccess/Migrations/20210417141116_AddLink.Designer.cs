@@ -4,14 +4,16 @@ using Euromonitor.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Euromonitor.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210417141116_AddLink")]
+    partial class AddLink
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -62,7 +64,7 @@ namespace Euromonitor.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("AppUser");
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("Euromonitor.Models.AppUserBook", b =>
@@ -84,7 +86,7 @@ namespace Euromonitor.DataAccess.Migrations
                     b.Property<DateTime>("SubscriptionDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("SubscriptionIsDeleted")
+                    b.Property<int>("SubscriptionIsDelete")
                         .HasColumnType("int");
 
                     b.Property<double>("SubscriptionPurchasePrice")
@@ -95,7 +97,7 @@ namespace Euromonitor.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("AppUserBook");
+                    b.ToTable("AppUserBooks");
                 });
 
             modelBuilder.Entity("Euromonitor.Models.Book", b =>
@@ -127,7 +129,7 @@ namespace Euromonitor.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Book");
+                    b.ToTable("Books");
                 });
 #pragma warning restore 612, 618
         }

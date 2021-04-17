@@ -27,7 +27,7 @@ namespace Euromonitor.Api.Services
             var claims = new List<Claim>
             {
                 //We will use the NameID to store the username
-                new Claim(JwtRegisteredClaimNames.NameId, user.UserName)
+                new Claim(JwtRegisteredClaimNames.NameId, user.AppUserName)
             };
 
             //Sign our token

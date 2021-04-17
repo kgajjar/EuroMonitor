@@ -4,14 +4,16 @@ using Euromonitor.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Euromonitor.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210417140739_Add-Linking-Table")]
+    partial class AddLinkingTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -62,40 +64,7 @@ namespace Euromonitor.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("AppUser");
-                });
-
-            modelBuilder.Entity("Euromonitor.Models.AppUserBook", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("AppUserId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("BookId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("SubscriptionBookName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("SubscriptionDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("SubscriptionIsDeleted")
-                        .HasColumnType("int");
-
-                    b.Property<double>("SubscriptionPurchasePrice")
-                        .HasColumnType("float");
-
-                    b.Property<DateTime>("SubscriptionUnsubscribeDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("AppUserBook");
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("Euromonitor.Models.Book", b =>
@@ -127,7 +96,7 @@ namespace Euromonitor.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Book");
+                    b.ToTable("Books");
                 });
 #pragma warning restore 612, 618
         }

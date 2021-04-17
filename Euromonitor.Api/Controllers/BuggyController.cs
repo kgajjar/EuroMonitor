@@ -31,7 +31,7 @@ namespace Euromonitor.Api.Controllers
         public ActionResult<AppUser> GetNotFound()
         {
             //Look for something that doesn't exist to [Throw Error]
-            var thing = _context.Users.Find(-1);
+            var thing = _context.AppUser.Find(-1);
 
             if (thing == null)
             {
@@ -48,7 +48,7 @@ namespace Euromonitor.Api.Controllers
         public ActionResult<string> GetServerError()
         {
             //Finding something that we know doesn't exist to throw error
-            var thing = _context.Users.Find(-1);
+            var thing = _context.AppUser.Find(-1);
 
             //We try to Parse a NULL to String to throw Null Ref Exception
             var thingToReturn = thing.ToString();

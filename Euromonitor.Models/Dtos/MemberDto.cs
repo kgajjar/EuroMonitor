@@ -13,21 +13,21 @@ namespace Euromonitor.Models.Dtos
         public int Id { get; set; }
 
         [Required]
-        public string UserName { get; set; }
+        public string AppUserName { get; set; }
 
         [Required]
-        public string EmailAddress { get; set; }
+        public string AppUserEmailAddress { get; set; }
 
         [Required]
-        public string FirstName { get; set; }
+        public string AppUserFirstName { get; set; }
 
         [Required]
-        public string LastName { get; set; }
+        public string AppUserLastName { get; set; }
 
-        public string ContactNumber { get; set; }
+        public string AppUserContactNumber { get; set; }
 
-        public DateTime Created { get; set; } = DateTime.Now;
+        public DateTime AppUserCreated { get; set; } = DateTime.Now;
 
-        public DateTime LastActive { get; set; } = DateTime.Now;
+        public DateTime AppUserLastActive { get; set; } = DateTime.Now;
     }
 }

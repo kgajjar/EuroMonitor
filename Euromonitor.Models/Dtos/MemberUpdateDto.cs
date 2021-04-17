@@ -8,15 +8,15 @@ namespace Euromonitor.Models.Dtos
 {
     public class MemberUpdateDto
     {
-        public string UserName { get; set; }
+        public string AppUserName { get; set; }
 
-        public string EmailAddress { get; set; }
+        public string AppUserEmailAddress { get; set; }
 
-        public string FirstName { get; set; }
+        public string AppUserFirstName { get; set; }
 
-        public string LastName { get; set; }
+        public string AppUserLastName { get; set; }
 
-        public string ContactNumber { get; set; }
+        public string AppUserContactNumber { get; set; }
 
     }
 }
