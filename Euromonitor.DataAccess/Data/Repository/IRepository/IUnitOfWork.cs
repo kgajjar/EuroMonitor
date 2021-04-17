@@ -12,10 +12,12 @@ namespace Euromonitor.DataAccess.Data.Repository.IRepository
          *What is a unit of work?
          *Represents whatever you do in a single transaction
          *Has access to all of your repos as well as a Save method that
-         * will push all the changes you do to the DB.
+         * will persist all the changes you make to the DB.
          */
 
         IUserRepository User { get; }
+
+        IBookRepository Book { get; }
 
         void Save();
     }

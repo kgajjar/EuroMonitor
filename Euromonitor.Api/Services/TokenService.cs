@@ -36,7 +36,7 @@ namespace Euromonitor.Api.Services
             //Now we need to describe our token
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                //Here we specifiy what goes insode our token
+                //Here we specify what goes inside our token
                 Subject = new ClaimsIdentity(claims),
 
                 //Expires in 7 days
@@ -44,7 +44,6 @@ namespace Euromonitor.Api.Services
 
                 //Pass our signing credentials
                 SigningCredentials = creds
-
             };
 
             //Create Token Handler
