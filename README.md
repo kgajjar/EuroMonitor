@@ -1,2 +1,2 @@
-# Euromonitor
+# Euromonitor International
 Technical Assessment
