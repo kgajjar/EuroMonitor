@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Initializer\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Euromonitor.Models\Euromonitor.Models.csproj" />
     <ProjectReference Include="..\Euromonitor.Utilities\Euromonitor.Utilities.csproj" />
   </ItemGroup>

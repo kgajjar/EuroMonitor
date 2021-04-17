@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Euromonitor.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Euromonitor.Api.Controllers.BooksController.GetBooks">
+            <summary>
+            Get list of all Books on sale.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Euromonitor.Api.Controllers.BooksController.GetBook(System.String)">
+            <summary>
+            Get individual Book
+            </summary>
+            <param name="bookname">The name of the Book</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

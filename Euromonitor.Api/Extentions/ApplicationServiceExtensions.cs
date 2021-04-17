@@ -20,8 +20,6 @@ namespace Euromonitor.Api.Extentions
             //AddScope means service will run for the life of HTTP req.
             services.AddScoped<ITokenService, TokenService>();
 
-            services.AddScoped<IUserRepository, UserRepository>();
-
             //We tell AutoMapper where our profiles class are located in our project so that it can inject it as a service
             //into our DI container
             services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
@@ -30,6 +28,14 @@ namespace Euromonitor.Api.Extentions
             {
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
             });
+
+            //Add Unit Of Work to DI Container
+            /*-----------------------------------------------------------------------------*/
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            /*-----------------------------------------------------------------------------*/
+
+            //Add DbInitializer to Di Container to load roles into Db if don't exist
+            //services.AddScoped<IDbInitializer, DbInitializer>();
 
             return services;
         }

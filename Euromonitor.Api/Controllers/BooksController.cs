@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace Euromonitor.Api.Controllers
 {
+#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
     public class BooksController : BaseApiController
     {
         //Unit of work to access DB
@@ -25,7 +26,10 @@ namespace Euromonitor.Api.Controllers
             _mapper = mapper;
         }
 
-        //Get all Books
+        /// <summary>
+        /// Get list of all Books on sale.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<BookDto>>> GetBooks()
         {
@@ -42,8 +46,11 @@ namespace Euromonitor.Api.Controllers
             return Ok(booksToReturn);
         }
 
-        //Get specific book
-        //api/books/3
+        /// <summary>
+        /// Get individual Book
+        /// </summary>
+        /// <param name="bookname">The name of the Book</param>
+        /// <returns></returns>
         [HttpGet("{bookname}")]
         public async Task<ActionResult<BookDto>> GetBook(string bookname)
         {
@@ -79,4 +86,5 @@ namespace Euromonitor.Api.Controllers
 
         }
     }
+#pragma warning restore CS1591 // Missing XML comment for publicly visible type or member
 }

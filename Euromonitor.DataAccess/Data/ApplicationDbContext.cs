@@ -12,9 +12,9 @@ namespace Euromonitor.DataAccess.Data
     public class ApplicationDbContext : DbContext
     {
         //We will pass this ctor options from Startup.cs files later
-        public ApplicationDbContext(DbContextOptions options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
         {
-
         }
 
         //Creates table called Users in DB

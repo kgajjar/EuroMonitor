@@ -15,7 +15,10 @@ namespace Euromonitor.Api.Helpers
         {
             CreateMap<AppUser, MemberDto>();
 
+            CreateMap<Book, BookDto>();
+
             CreateMap<MemberUpdateDto, AppUser>();
+
         }
     }
 }

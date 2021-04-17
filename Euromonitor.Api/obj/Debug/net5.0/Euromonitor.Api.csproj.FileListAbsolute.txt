@@ -26,7 +26,6 @@ C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Eu
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
@@ -73,3 +72,5 @@ C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Eu
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\obj\Debug\net5.0\Euromonitor.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\bin\Debug\net5.0\Data\BookSeedData.json
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\bin\Debug\net5.0\Euromonitor.Api.xml
