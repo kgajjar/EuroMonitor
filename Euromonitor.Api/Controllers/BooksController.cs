@@ -2,6 +2,7 @@
 using Euromonitor.DataAccess.Data.Repository.IRepository;
 using Euromonitor.Models.Dtos;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -31,6 +32,9 @@ namespace Euromonitor.Api.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<BookDto>))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)] //Bad Request
+        [ProducesDefaultResponseType] //Any error that doesn't fall above
         public async Task<ActionResult<IEnumerable<BookDto>>> GetBooks()
         {
             //Below we have to use async version of ToList
@@ -52,6 +56,10 @@ namespace Euromonitor.Api.Controllers
         /// <param name="bookname">The name of the Book</param>
         /// <returns></returns>
         [HttpGet("{bookname}")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(BookDto))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)] //Bad Request
+        [ProducesResponseType(StatusCodes.Status404NotFound)] //Not Found
+        [ProducesDefaultResponseType] //Any error that doesn't fall above
         public async Task<ActionResult<BookDto>> GetBook(string bookname)
         {
             var book = await _unitOfWork.Book.GetBookByBookNameAsync(bookname);

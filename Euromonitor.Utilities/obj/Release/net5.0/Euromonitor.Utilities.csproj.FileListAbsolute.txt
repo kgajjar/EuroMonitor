@@ -1,0 +1,12 @@
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\bin\Release\net5.0\Euromonitor.Utilities.deps.json
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\bin\Release\net5.0\Euromonitor.Utilities.dll
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\bin\Release\net5.0\ref\Euromonitor.Utilities.dll
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\bin\Release\net5.0\Euromonitor.Utilities.pdb
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\obj\Release\net5.0\Euromonitor.Utilities.csprojAssemblyReference.cache
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\obj\Release\net5.0\Euromonitor.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\obj\Release\net5.0\Euromonitor.Utilities.AssemblyInfoInputs.cache
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\obj\Release\net5.0\Euromonitor.Utilities.AssemblyInfo.cs
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\obj\Release\net5.0\Euromonitor.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\obj\Release\net5.0\Euromonitor.Utilities.dll
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\obj\Release\net5.0\ref\Euromonitor.Utilities.dll
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Utilities\obj\Release\net5.0\Euromonitor.Utilities.pdb

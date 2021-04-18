@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0a5uuSFp5km9MJjIEl7P2AAAAAACAAAAAAAQZgAAAAEAACAAAAB+kUHjXd+6Ls/YIgbr8sVG5icBlaZlI3bQ3q1e4K856gAAAAAOgAAAAAIAACAAAAAtqDVWDZCcIE0Pf4iIxHxKr4VFZ1Am5MJjacbU9mo964AAAAAHCtPDseTgbznKwyqQJqiQK/9gmLLGgmkzqn83kNzVdWVgkwWwhpDlFxisKgf3Gd+gk+qyUxuo00MAZ/6cHwtxLobynZiJt+LGKEYQ61248qDxCTNatwTVwl07otWQLOT3/cWZuto2j7zZsd5PzBxj4FB0oq2Bxxsms0rIscrD1kAAAAB5bJaM5PDN71OvqikOz0GBCPULsb5v7hMyhcZ+1hayRGUOk3gW89GY0auqqDtRCIsHQ1S6gZ+ZROlWhtM6lBHM</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:digito5.database.windows.net,1433%3bInitial Catalog=EuromonitorLiterature%3bUser Id=adminuser%40digito5%3bPassword=inno3d7600gtX%2a</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
