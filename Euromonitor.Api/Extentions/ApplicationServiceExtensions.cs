@@ -17,7 +17,7 @@ namespace Euromonitor.Api.Extentions
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration config)
         {
-            //AddScope means service will run for the life of HTTP req.
+            //AddScoped means service will run for the life of HTTP req.
             services.AddScoped<ITokenService, TokenService>();
 
             //We tell AutoMapper where our profiles class are located in our project so that it can inject it as a service

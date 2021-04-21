@@ -20,6 +20,7 @@ namespace Euromonitor.Api.Controllers
         private readonly ITokenService _tokenService;
         private readonly IMapper _mapper;
 
+        //Injecting my dependancies into the DI Container using Dependancy Injection.
         public BooksController(IUnitOfWork unitOfWork, ITokenService tokenService, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
@@ -72,7 +73,6 @@ namespace Euromonitor.Api.Controllers
         [HttpPut]
         public async Task<ActionResult> UpdateBook(BookUpdateDto bookUpdateDto)
         {
-
             //Get book from DB by Id
             var book = await _unitOfWork.Book.GetBookByIdAsync(bookUpdateDto.Id);
 

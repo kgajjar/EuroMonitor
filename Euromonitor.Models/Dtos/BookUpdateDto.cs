@@ -9,7 +9,6 @@ namespace Euromonitor.Models.Dtos
 {
     public class BookUpdateDto
     {
-        [Key]
         public int Id { get; set; }
 
         [Required]

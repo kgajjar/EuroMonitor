@@ -9,7 +9,6 @@ namespace Euromonitor.Models.Dtos
 {
     public class MemberDto
     {
-        [Key]
         public int Id { get; set; }
 
         [Required]
@@ -29,5 +28,7 @@ namespace Euromonitor.Models.Dtos
         public DateTime AppUserCreated { get; set; } = DateTime.Now;
 
         public DateTime AppUserLastActive { get; set; } = DateTime.Now;
+
+        public string AppUserBioInfo { get; set; }
     }
 }

@@ -6,15 +6,15 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>Euromonitor.Api.xml\Euromonitor.Api.xml</DocumentationFile>
+    <DocumentationFile>Euromonitor.Api.xml</DocumentationFile>
     <NoWarn>1701;1702;1591;</NoWarn>
-    <OutputPath>Euromonitor.Api.xml</OutputPath>
+    <OutputPath></OutputPath>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath></OutputPath>
-    <DocumentationFile></DocumentationFile>
+    <DocumentationFile>Euromonitor.Api.xml</DocumentationFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
   </PropertyGroup>
 

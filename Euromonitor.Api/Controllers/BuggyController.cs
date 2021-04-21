@@ -12,7 +12,7 @@ namespace Euromonitor.Api.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        //Inject ApplicationDbContext into this constructor
+        //Injecting my dependancies into the DI Container using Dependancy Injection.
         public BuggyController(ApplicationDbContext context)
         {
             _context = context;

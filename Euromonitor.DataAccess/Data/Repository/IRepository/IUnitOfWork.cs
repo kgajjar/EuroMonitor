@@ -15,7 +15,7 @@ namespace Euromonitor.DataAccess.Data.Repository.IRepository
          * will persist all the changes you make to the DB.
          */
 
-        IUserRepository User { get; }
+        IAppUserRepository AppUser { get; }
 
         IBookRepository Book { get; }
 

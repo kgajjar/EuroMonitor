@@ -13,11 +13,13 @@ namespace Euromonitor.Api.Helpers
         //This is added to ApplicationServiceExtensions
         public AutoMapperProfiles()
         {
-            CreateMap<AppUser, MemberDto>();
+            CreateMap<AppUser, MemberDto>().ReverseMap();
 
-            CreateMap<Book, BookDto>();
+            CreateMap<Book, BookDto>().ReverseMap();
 
-            CreateMap<MemberUpdateDto, AppUser>();
+            CreateMap<RegisterDto, AppUser>().ReverseMap();
+
+            CreateMap<MemberUpdateDto, AppUser>().ReverseMap();
 
         }
     }

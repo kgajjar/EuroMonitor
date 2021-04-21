@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Euromonitor.DataAccess.Data.Repository.IRepository
 {
-    public interface IUserRepository
+    public interface IAppUserRepository
     {
         void Update(AppUser user);//No need to be async as it's not updating DB. Only EF in memory.
 

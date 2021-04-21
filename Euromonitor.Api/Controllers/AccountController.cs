@@ -1,4 +1,5 @@
-﻿using Euromonitor.DataAccess.Data;
+﻿using AutoMapper;
+using Euromonitor.DataAccess.Data;
 using Euromonitor.DataAccess.Data.Repository.IRepository;
 using Euromonitor.Models;
 using Euromonitor.Models.Dtos;
@@ -17,15 +18,18 @@ namespace Euromonitor.Api.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly ITokenService _tokenService;
+        private readonly IMapper _mapper;
 
-        public AccountController(ApplicationDbContext context, ITokenService tokenService)
+        //Injecting my dependancies into the DI Container using Dependancy Injection.
+        public AccountController(ApplicationDbContext context, ITokenService tokenService, IMapper mapper)
         {
             _tokenService = tokenService;
             _context = context;
+            _mapper = mapper;
         }
 
         [HttpPost("login")]
-        public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
+        public async Task<ActionResult<AppUserDto>> Login(LoginDto loginDto)
         {
             //Get the user from the DB. Don't use FindAsync method as we are not searching by PK.
             var user = await _context.AppUser
@@ -52,7 +56,7 @@ namespace Euromonitor.Api.Controllers
             }
 
             //Passwords match
-            return new UserDto
+            return new AppUserDto
             {
                 Username = user.AppUserName,
                 Token = _tokenService.CreateToken(user)
@@ -61,19 +65,20 @@ namespace Euromonitor.Api.Controllers
 
         [HttpPost("register")]
         //Values could come from body or query. Web API will figure it out. Has to be an object not strings.
-        public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
+        public async Task<ActionResult<AppUserDto>> Register(RegisterDto registerDto)
         {
-            if (await UserExists(registerDto.Username))
+            if (await UserExists(registerDto.AppUserName))
                 //Error 400 HTTP status code
                 return BadRequest("Username is taken");
 
             //Provides us with our Hashing algorithm. Using will dispose of resources correctly.
             using var hmac = new HMACSHA512();
 
+
             //Create new user
             var user = new AppUser
             {
-                AppUserName = registerDto.Username.ToLower(),
+                AppUserName = registerDto.AppUserName.ToLower(),
                 //Generate password Hash
                 PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.Password)),
 
@@ -81,13 +86,16 @@ namespace Euromonitor.Api.Controllers
                 PasswordSalt = hmac.Key
             };
 
+            //Map the input Dto to our User class
+            _mapper.Map(registerDto, user);
+
             //Adding this to EF
             _context.AppUser.Add(user);
 
             //Persist changes to DB
             await _context.SaveChangesAsync();
 
-            return new UserDto
+            return new AppUserDto
             {
                 Username = user.AppUserName,
                 Token = _tokenService.CreateToken(user)

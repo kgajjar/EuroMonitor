@@ -11,14 +11,15 @@ using System.Threading.Tasks;
 
 namespace Euromonitor.Api.Controllers
 {
-    [Authorize]
+    //Only Authorized users are allowed access to the below functionality
+    //[Authorize]
     public class UsersController : BaseApiController
     {
-        //private readonly IUserRepository _userRepository;
         //Unit of work to access DB
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
+        //Injecting my dependancies into the DI Container using Dependancy Injection.
         public UsersController(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
@@ -30,13 +31,13 @@ namespace Euromonitor.Api.Controllers
         public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
         {
             //Below we have to use async version of ToList
-            var users = await _unitOfWork.User.GetUsersAsync();
+            var appUsers = await _unitOfWork.AppUser.GetUsersAsync();
 
             //Map to DTO
-            //Source: users
+            //Source: AppUser
             //Output: <IEnumerable<MemberDto>>
 
-            var UsersToReturn = _mapper.Map<IEnumerable<MemberDto>>(users);
+            var UsersToReturn = _mapper.Map<IEnumerable<MemberDto>>(appUsers);
             //Wrap result in an OK response
             return Ok(UsersToReturn);
         }
@@ -46,10 +47,10 @@ namespace Euromonitor.Api.Controllers
         [HttpGet("{username}")]
         public async Task<ActionResult<MemberDto>> GetUser(string username)
         {
-            var user = await _unitOfWork.User.GetUserByUsernameAsync(username);
+            var appUser = await _unitOfWork.AppUser.GetUserByUsernameAsync(username);
 
             //FindAsync method rather than Find. Map
-            return _mapper.Map<MemberDto>(user);
+            return _mapper.Map<MemberDto>(appUser);
         }
 
         //Update user
@@ -57,20 +58,27 @@ namespace Euromonitor.Api.Controllers
         public async Task<ActionResult> UpdateUser(MemberUpdateDto memberUpdateDto)
         {
             //Get hold of the username from the token, not by username as we cant trust this.
-            //as someone could have stolen the token and trying to use it to update a user.
+            //as someone could have stolen the token and is trying to use it to update a different user.
             var username = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
-            //Get user from DB
-            var user = await _unitOfWork.User.GetUserByUsernameAsync(username);
+            //Get appUser from DB
+            var appUser = await _unitOfWork.AppUser.GetUserByUsernameAsync(username);
 
-            //Map the input Dto to our User class
-            _mapper.Map(memberUpdateDto, user);
+            //User not found
+            if(appUser == null)
+            {
+                //404
+                return NotFound();
+            }
+
+            //Map the input DTO to our User class
+            _mapper.Map(memberUpdateDto, appUser);
 
             //User object is flagged as being updated by Entity Framework
-            _unitOfWork.User.Update(user);
+            _unitOfWork.AppUser.Update(appUser);
 
             //Persist changes to DB
-            if (await _unitOfWork.User.SaveAllAsync())
+            if (await _unitOfWork.AppUser.SaveAllAsync())
             {
                 return NoContent();
             }

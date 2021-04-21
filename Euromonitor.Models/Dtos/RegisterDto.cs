@@ -5,18 +5,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Euromonitor.Models
+namespace Euromonitor.Models.Dtos
 {
-    public class AppUser
+    public class RegisterDto
     {
-
-        [Key]
-        public int Id { get; set; }
 
         [Required]
         public string AppUserName { get; set; }
 
         [Required]
+        [StringLength(25, MinimumLength = 4)]//MaxLength:25, MinLength: 4.
+        public string Password { get; set; }
+
+        [Required]
+        [EmailAddress]
         public string AppUserEmailAddress { get; set; }
 
         [Required]
@@ -25,19 +27,7 @@ namespace Euromonitor.Models
         [Required]
         public string AppUserLastName { get; set; }
 
+        [Required]
         public string AppUserContactNumber { get; set; }
-
-        public byte[] PasswordHash { get; set; }
-
-        public byte[] PasswordSalt { get; set; }
-
-        public DateTime AppUserCreateDate { get; set; } = DateTime.Now;
-
-        public DateTime AppUserLastActive { get; set; } = DateTime.Now;
-
-        public string AppUserBioInfo { get; set; }
-
-        public int AppUserIsDeleted { get; set; }
-
     }
 }

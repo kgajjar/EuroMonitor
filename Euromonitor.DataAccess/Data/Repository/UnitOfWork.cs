@@ -14,11 +14,11 @@ namespace Euromonitor.DataAccess.Data.Repository
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
-            User = new UserRepository(_db);
+            AppUser = new AppUserRepository(_db);
             Book = new BookRepository(_db);
         }
 
-        public IUserRepository User { get; private set; }
+        public IAppUserRepository AppUser { get; private set; }
 
         public IBookRepository Book { get; private set; }
 
