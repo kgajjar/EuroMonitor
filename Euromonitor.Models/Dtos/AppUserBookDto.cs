@@ -1,18 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Euromonitor.Models
+namespace Euromonitor.Models.Dtos
 {
-    public class AppUserBook
+    public class AppUserBookDto
     {
-        [Key]
-        public int Id { get; set; }
-
         [Required]
         public int AppUserId { get; set; }
 
@@ -27,9 +23,5 @@ namespace Euromonitor.Models
 
         [Required]
         public double SubscriptionPurchasePrice { get; set; }
-
-        public DateTime SubscriptionUnsubscribeDate { get; set; }
-
-        public int SubscriptionIsDeleted { get; set; } = 0;
     }
 }

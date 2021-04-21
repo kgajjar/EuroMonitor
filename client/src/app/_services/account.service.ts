@@ -5,6 +5,7 @@ import { map } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
 import { User } from '../_models/user';
 import { Register } from '../_models/register';
+import { ToastrService } from 'ngx-toastr';
 
 //Injectable means that this service can be injected in other components/services in app
 @Injectable({
@@ -26,7 +27,7 @@ export class AccountService {
   currentUser$ = this.currentUserSource.asObservable();
 
   //Inject http client into account service
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private toastr: ToastrService) { }
 
   //model type if any. Send body to server.
   login(model: any) {
@@ -61,6 +62,8 @@ export class AccountService {
         if (user) {
           //Store user obj in local storage
           localStorage.setItem('user', JSON.stringify(user));
+
+          this.toastr.success("Welcome " + user.username);
 
           //Store it in Observable
           this.currentUserSource.next(user);
