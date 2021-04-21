@@ -16,24 +16,29 @@ namespace Euromonitor.Api.Controllers
 {
     public class AccountController : BaseApiController
     {
-        private readonly ApplicationDbContext _context;
+        //Unit of work to access DB
+        private readonly IUnitOfWork _unitOfWork;
         private readonly ITokenService _tokenService;
         private readonly IMapper _mapper;
 
         //Injecting my dependancies into the DI Container using Dependancy Injection.
-        public AccountController(ApplicationDbContext context, ITokenService tokenService, IMapper mapper)
+        public AccountController(IUnitOfWork unitOfWork, ITokenService tokenService, IMapper mapper)
         {
             _tokenService = tokenService;
-            _context = context;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
 
+        /// <summary>
+        /// Used for User Authentication and is set to run Asynchronously using features from the Task class in C#.
+        /// </summary>
+        /// <param name="loginDto"></param>
+        /// <returns></returns>
         [HttpPost("login")]
         public async Task<ActionResult<AppUserDto>> Login(LoginDto loginDto)
         {
             //Get the user from the DB. Don't use FindAsync method as we are not searching by PK.
-            var user = await _context.AppUser
-                .SingleOrDefaultAsync(x => x.AppUserName == loginDto.UserName);
+            var user = await _unitOfWork.AppUser.GetUserByUsernameAsync(loginDto.UserName);
 
             //Check if user exists and return message
             if (user == null)
@@ -62,7 +67,11 @@ namespace Euromonitor.Api.Controllers
                 Token = _tokenService.CreateToken(user)
             };
         }
-
+        /// <summary>
+        /// Used to Register new users on the system. Since it also hits the DB, it is set to run asynchronously.
+        /// </summary>
+        /// <param name="registerDto"></param>
+        /// <returns></returns>
         [HttpPost("register")]
         //Values could come from body or query. Web API will figure it out. Has to be an object not strings.
         public async Task<ActionResult<AppUserDto>> Register(RegisterDto registerDto)
@@ -90,10 +99,10 @@ namespace Euromonitor.Api.Controllers
             _mapper.Map(registerDto, user);
 
             //Adding this to EF
-            _context.AppUser.Add(user);
+            _unitOfWork.AppUser.Add(user);
 
             //Persist changes to DB
-            await _context.SaveChangesAsync();
+            await _unitOfWork.AppUser.SaveAllAsync();
 
             return new AppUserDto
             {
@@ -109,7 +118,11 @@ namespace Euromonitor.Api.Controllers
         /// <returns></returns>
         private async Task<bool> UserExists(string username)
         {
-            return await _context.AppUser.AnyAsync(c => c.AppUserName == username.ToLower());
+            //Search for user in DB
+            var result = await _unitOfWork.AppUser.GetUserByUsernameAsync(username);
+
+            //Conditional Operator to perform check
+            return result != null ? true : false;
         }
 
     }

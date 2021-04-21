@@ -14,6 +14,8 @@ import { NotFoundComponent } from './errors/not-found/not-found.component';
 import { ServerErrorComponent } from './errors/server-error/server-error.component';
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
 import { PreventUnsavedChangesGuard } from './_gaurds/prevent-unsaved-changes.guard';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
+import { SubscriptionComponent } from './subscription/subscription.component';
 
 const routes: Routes = [
 
@@ -29,7 +31,9 @@ const routes: Routes = [
       //We added our authgaurd below. Add it per link you want to protect.
       //Dont add a (s) on end as this will confuse Angular with the current members route.
       { path: 'member/edit', component: MemberEditComponent, canDeactivate: [PreventUnsavedChangesGuard]},
-      { path: 'checkoutsummary', component: CheckoutSummaryComponent }
+      { path: 'checkoutsummary', component: CheckoutSummaryComponent },
+      { path: 'confirmation', component: ConfirmationComponent },
+      { path: 'subscription', component: SubscriptionComponent },
     ]
   },
 
@@ -40,7 +44,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'checkout', component: CheckoutComponent },
   { path: 'checkout-summary', component: CheckoutSummaryComponent },
-  
+
   //Register the error route outside routegaurd so we dont need to login
   { path: 'errors', component: TestErrorsComponent },
 

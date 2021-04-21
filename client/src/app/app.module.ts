@@ -24,6 +24,8 @@ import { ServerErrorComponent } from './errors/server-error/server-error.compone
 import { TestErrorsComponent } from './errors/test-errors/test-errors.component';
 import { ErrorInterceptor } from './_interceptors/error.interceptor';
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
+import { SubscriptionComponent } from './subscription/subscription.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { MemberEditComponent } from './members/member-edit/member-edit.component
     TextInputComponent,
     NotFoundComponent,
     ServerErrorComponent,
-    TestErrorsComponent
+    TestErrorsComponent,
+    ConfirmationComponent,
+    SubscriptionComponent
     
   ],
   imports: [

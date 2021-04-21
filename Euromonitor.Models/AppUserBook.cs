@@ -30,6 +30,6 @@ namespace Euromonitor.Models
 
         public DateTime SubscriptionUnsubscribeDate { get; set; }
 
-        public int SubscriptionIsDeleted { get; set; } = 0;
+        public int SubscriptionIsDeleted { get; set; }
     }
 }

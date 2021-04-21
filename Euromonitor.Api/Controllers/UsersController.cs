@@ -2,6 +2,7 @@
 using Euromonitor.DataAccess.Data.Repository.IRepository;
 using Euromonitor.Models.Dtos;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 namespace Euromonitor.Api.Controllers
 {
     //Only Authorized users are allowed access to the below functionality
-    //[Authorize]
+    [Authorize]
     public class UsersController : BaseApiController
     {
         //Unit of work to access DB
@@ -26,8 +27,14 @@ namespace Euromonitor.Api.Controllers
             _mapper = mapper;
         }
 
-        //Get all Users
+        /// <summary>
+        /// Gets all Users and exposes some of their data using a DTO (Data Transfer Object)
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<MemberDto>))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)] //Bad Request
+        [ProducesDefaultResponseType] //Any error that doesn't fall above
         public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
         {
             //Below we have to use async version of ToList
@@ -42,9 +49,16 @@ namespace Euromonitor.Api.Controllers
             return Ok(UsersToReturn);
         }
 
-        //Get specific User
-        //api/users/3
+        /// <summary>
+        /// Get a specific User asynchronously
+        /// </summary>
+        /// <param name="username"></param>
+        /// <returns></returns>
         [HttpGet("{username}")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(MemberDto))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)] //Bad Request
+        [ProducesResponseType(StatusCodes.Status404NotFound)] //Not Found
+        [ProducesDefaultResponseType] //Any error that doesn't fall above
         public async Task<ActionResult<MemberDto>> GetUser(string username)
         {
             var appUser = await _unitOfWork.AppUser.GetUserByUsernameAsync(username);
@@ -53,8 +67,16 @@ namespace Euromonitor.Api.Controllers
             return _mapper.Map<MemberDto>(appUser);
         }
 
-        //Update user
+        /// <summary>
+        /// Update an existing User Account.
+        /// </summary>
+        /// <param name="memberUpdateDto"></param>
+        /// <returns></returns>
         [HttpPut]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)] //Bad Request
+        [ProducesResponseType(StatusCodes.Status404NotFound)] //Not Found
+        [ProducesDefaultResponseType] //Any error that doesn't fall above
         public async Task<ActionResult> UpdateUser(MemberUpdateDto memberUpdateDto)
         {
             //Get hold of the username from the token, not by username as we cant trust this.
@@ -65,7 +87,7 @@ namespace Euromonitor.Api.Controllers
             var appUser = await _unitOfWork.AppUser.GetUserByUsernameAsync(username);
 
             //User not found
-            if(appUser == null)
+            if (appUser == null)
             {
                 //404
                 return NotFound();

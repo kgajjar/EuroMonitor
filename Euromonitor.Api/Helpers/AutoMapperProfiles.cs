@@ -10,7 +10,9 @@ namespace Euromonitor.Api.Helpers
 {
     public class AutoMapperProfiles : Profile
     {
-        //This is added to ApplicationServiceExtensions
+        /// <summary>
+        /// This is added to ApplicationServiceExtensions
+        /// </summary>
         public AutoMapperProfiles()
         {
             CreateMap<AppUser, MemberDto>().ReverseMap();
@@ -20,6 +22,7 @@ namespace Euromonitor.Api.Helpers
             CreateMap<RegisterDto, AppUser>().ReverseMap();
 
             CreateMap<MemberUpdateDto, AppUser>().ReverseMap();
+            CreateMap<AppUserBookDto, AppUserBook>().ReverseMap();
 
         }
     }

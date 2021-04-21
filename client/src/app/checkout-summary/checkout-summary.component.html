@@ -7,7 +7,6 @@
                   <tr>
                       <th>Product Name</th>
                       <th class="text-center">Price</th>
-                      <th class="text-center"><a class="btn btn-sm btn-outline-danger" (click)="_emptyCart()">Clear Cart</a></th>
                   </tr>
               </thead>
               <tbody> 
@@ -23,15 +22,14 @@
                           </div>
                       </td>
                       <td class="text-center text-lg text-medium">${{item.bookPurchasePrice}}</td>
-                      <td class="text-center"><a class="remove-from-cart" (click)="_removeCartItem(item.id)" data-toggle="tooltip" title="" data-original-title="Remove item"><i class="fa fa-trash"></i></a></td>
                   </tr>
               </tbody>
           </table>
       </div>
       <div class="shopping-cart-footer">
           <div class="column"><a class="btn btn-outline-secondary" routerLink="/"><i class="icon-arrow-left"></i>&nbsp;Back to Shopping</a></div>
-          <div class="column"><a class="btn btn-success" routerLink="/checkout">Pay Subscription</a></div>
+          <div *ngIf="itemsinCart > 0" class="column"><a class="btn btn-success" (click)="_makePurchase()">Pay Subscription</a></div>
+        </div>
       </div>
-  </div>
   </section>
   

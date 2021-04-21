@@ -11,6 +11,10 @@ using System.Threading.Tasks;
 
 namespace Euromonitor.Api.Middleware
 {
+    /// <summary>
+    /// Bringing in ILogger so we can still log out our exceptions to terminal. Useful
+    /// IHostEnvironment - to check if we are in Prod or dev
+    /// </summary>
     public class ExceptionMiddleware
     {
         private readonly RequestDelegate _next;
@@ -18,10 +22,6 @@ namespace Euromonitor.Api.Middleware
         private readonly ILogger<ExceptionMiddleware> _logger;
 
         private readonly IHostEnvironment _env;
-
-
-        //Bringing in ILogger so we can still log out our exceptions to terminal. Useful
-        //IHostEnvironment - to check if we are in Prod or dev
         public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware> logger, IHostEnvironment env)
         {
             _env = env;

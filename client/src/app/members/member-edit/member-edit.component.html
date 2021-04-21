@@ -1,7 +1,10 @@
+<section>
+<div class="container padding-bottom-3x mb-1 mt-4">
 <!--Check if member exists before we display him as the data from api might have not been returned from API yet-->
+<div class="col-sm-12 col-md-12 col-lg-12 mt-6">
 <div class="row" *ngIf="member">
   <div class="col-4">
-    <h1>Your profile</h1>
+   <h3 style="padding-top:8px;padding-left:5px;">Your Profile</h3>
   </div>
   <div class="col-8">
     <!--Notification for profile update-->
@@ -33,7 +36,7 @@
   <div class="col-8">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
-        <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">About {{member.knownAs}}</a>
+        <a class="nav-link active" id="about-tab" data-toggle="tab" href="#" role="tab" aria-controls="about" aria-selected="true">About {{member.knownAs}}</a>
       </li>
     </ul>
     <div class="tab-content member-tabset" id="memberTabContent">
@@ -62,7 +65,9 @@
             <input [(ngModel)]="member.appUserContactNumber" type="text" name="appUserContactNumber" class="form-control mx-2" />
 
             <!--Bio Info-->
-            <h4 class="mt-2">Bio Information</h4>
+            <label for="appUserBioInfo">
+              Bio Information:
+            </label>
             <textarea class="form-control" [(ngModel)]="member.appUserBioInfo" name="appUserBioInfo" rows="6">
             </textarea>
           </div>
@@ -71,4 +76,6 @@
     </div>
   </div>
 </div>
-
+</div>
+</div>
+</section>

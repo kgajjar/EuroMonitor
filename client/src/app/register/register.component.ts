@@ -82,19 +82,12 @@ export class RegisterComponent implements OnInit {
     //Reactive Forms: Contains the values for all of these Form Controls
     this.accountService.register(this.registerForm.value).subscribe(response => {
 
-     this.router.navigateByUrl('/');
+     this.router.navigateByUrl('cart');
     }, error => {
       //Take care of validation errors on client + backend. Just in case there is a mismatch
       //Set validation errors to error we get back from API
       this.validationErrors = error;
     });
-    //console.log(this.model);
   }
-
-  cancel() {
-    //Emit a value using event emiitter. Sending value "false" to parent
-    this.cancelRegistration.emit(false);
-  }
-
 }
 

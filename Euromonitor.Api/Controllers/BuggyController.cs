@@ -12,13 +12,13 @@ namespace Euromonitor.Api.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        //Injecting my dependancies into the DI Container using Dependancy Injection.
+        //Injecting my dependencies into the DI Container using Dependancy Injection.
         public BuggyController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        #region Methods to generate responses that are unsuccessful
+        #region Methods to generate responses that are unsuccessful for testing.
 
         //URI: api/buggy/auth
         [HttpGet("auth")]

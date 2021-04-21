@@ -4,11 +4,32 @@
         <name>Euromonitor.Api</name>
     </assembly>
     <members>
+        <member name="M:Euromonitor.Api.Controllers.AccountController.Login(Euromonitor.Models.Dtos.LoginDto)">
+            <summary>
+            Used for User Authentication and is set to run Asynchronously using features from the Task class in C#.
+            </summary>
+            <param name="loginDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Euromonitor.Api.Controllers.AccountController.Register(Euromonitor.Models.Dtos.RegisterDto)">
+            <summary>
+            Used to Register new users on the system. Since it also hits the DB, it is set to run asynchronously.
+            </summary>
+            <param name="registerDto"></param>
+            <returns></returns>
+        </member>
         <member name="M:Euromonitor.Api.Controllers.AccountController.UserExists(System.String)">
             <summary>
             Check if user already exists in DB
             </summary>
             <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Euromonitor.Api.Controllers.AppUserBookController.AddAppUserBook(System.Collections.Generic.IEnumerable{Euromonitor.Models.Book})">
+            <summary>
+            Used for persisting Book orders to the underlying database.
+            </summary>
+            <param name="book"></param>
             <returns></returns>
         </member>
         <member name="M:Euromonitor.Api.Controllers.BooksController.GetBooks">
@@ -23,6 +44,37 @@
             </summary>
             <param name="bookname">The name of the Book</param>
             <returns></returns>
+        </member>
+        <member name="M:Euromonitor.Api.Controllers.UsersController.GetUsers">
+            <summary>
+            Gets all Users and exposes some of their data using a DTO (Data Transfer Object)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Euromonitor.Api.Controllers.UsersController.GetUser(System.String)">
+            <summary>
+            Get a specific User asynchronously
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Euromonitor.Api.Controllers.UsersController.UpdateUser(Euromonitor.Models.Dtos.MemberUpdateDto)">
+            <summary>
+            Update an existing User Account.
+            </summary>
+            <param name="memberUpdateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Euromonitor.Api.Helpers.AutoMapperProfiles.#ctor">
+            <summary>
+            This is added to ApplicationServiceExtensions
+            </summary>
+        </member>
+        <member name="T:Euromonitor.Api.Middleware.ExceptionMiddleware">
+            <summary>
+            Bringing in ILogger so we can still log out our exceptions to terminal. Useful
+            IHostEnvironment - to check if we are in Prod or dev
+            </summary>
         </member>
     </members>
 </doc>

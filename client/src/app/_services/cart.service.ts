@@ -6,6 +6,9 @@ import { of } from 'rxjs/internal/observable/of';
 import { map } from 'rxjs/operators';
 import { BehaviorSubject } from 'rxjs';
 import { ToastrService } from 'ngx-toastr';
+import { Purchase } from '../_models/purchase';
+import { Router } from '@angular/router';
+import { typeSourceSpan } from '@angular/compiler';
 
 @Injectable({
   providedIn: 'root'
@@ -25,7 +28,7 @@ export class CartService {
   cartItems = new BehaviorSubject([])
 
   //Bring in HTTP Client 
-  constructor(private http: HttpClient, private toastr: ToastrService) {
+  constructor(private router: Router,private http: HttpClient, private toastr: ToastrService) {
     //When app loads, attempt to retrieve cart items from Local Storage
     //Local storage returns string. So we need to Parse to JSON to retrieve object we can work with.
     const ls = this.getCartData();
@@ -69,6 +72,8 @@ export class CartService {
   {
     //Get local storage object
     const ls = this.getCartData();
+
+    const purchase: Purchase[] = [];
 
     //Storage for local storage data
     let exist: Book;
@@ -189,4 +194,36 @@ export class CartService {
   {
     return JSON.parse(localStorage.getItem('cart'));
   }
+
+  makePurchase() {
+
+    //Get local storage object
+    const ls = this.getCartData();
+
+    //Make http post
+    this.http.post(this.apiUrl + 'AppUserBook', ls)
+        .subscribe(
+
+            (val) => {
+                console.log("POST call successful value returned in body", 
+                            val);
+            },
+            response => {
+                console.log("POST call in error", response);
+            },
+            () => {
+                //Clear cart items
+                this.placeholder = [];
+
+                //Set update to our local storage
+                this.setCartData(this.placeholder);
+
+                //Route to thank you purchase page
+                this.router.navigateByUrl('confirmation');
+
+                //Emit the new data so it can be subscribed to from any other objects that we need.
+                this.cartItems.next(this.getCartData());
+            });
+    }
+
 }

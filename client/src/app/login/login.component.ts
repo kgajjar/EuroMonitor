@@ -24,7 +24,7 @@ export class LoginComponent implements OnInit {
     this.accountService.login(this.model).subscribe(response => {
 
       //Send user to homepage
-      this.router.navigateByUrl('/');
+      this.router.navigateByUrl('cart');
 
     }, error => {
       //Output toastr

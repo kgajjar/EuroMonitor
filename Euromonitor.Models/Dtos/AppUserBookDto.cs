@@ -23,5 +23,9 @@ namespace Euromonitor.Models.Dtos
 
         [Required]
         public double SubscriptionPurchasePrice { get; set; }
+
+        public DateTime SubscriptionUnsubscribeDate { get; set; }
+
+        public int SubscriptionIsDeleted { get; set; }
     }
 }

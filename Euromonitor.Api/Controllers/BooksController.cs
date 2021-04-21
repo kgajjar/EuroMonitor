@@ -41,6 +41,11 @@ namespace Euromonitor.Api.Controllers
             //Below we have to use async version of ToList
             var books = await _unitOfWork.Book.GetBooksAsync();
 
+            if(books == null)
+            {
+                return NotFound();
+            }
+
             //Map to DTO
             //Source: Book
             //Output: <IEnumerable<BookDto>>
@@ -71,10 +76,21 @@ namespace Euromonitor.Api.Controllers
 
         //Update Book
         [HttpPut]
+        [Authorize]//Only users who have been authenticated and part of admin role, can have access to this. Roles coming soon.
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)] //Bad Request
+        [ProducesResponseType(StatusCodes.Status404NotFound)] //Not Found
+        [ProducesDefaultResponseType] //Any error that doesn't fall above
         public async Task<ActionResult> UpdateBook(BookUpdateDto bookUpdateDto)
         {
             //Get book from DB by Id
             var book = await _unitOfWork.Book.GetBookByIdAsync(bookUpdateDto.Id);
+
+            if(book == null)
+            {
+                //404
+                return NotFound();
+            }
 
             //Map the input Dto to our Book class
             _mapper.Map(bookUpdateDto, book);
