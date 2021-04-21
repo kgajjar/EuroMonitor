@@ -19,6 +19,8 @@ namespace Euromonitor.DataAccess.Data.Repository.IRepository
 
         IBookRepository Book { get; }
 
+        IAppUserBookRepository AppUserBook { get; }
+
         void Save();
     }
 }

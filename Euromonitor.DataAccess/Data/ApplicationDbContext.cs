@@ -17,13 +17,13 @@ namespace Euromonitor.DataAccess.Data
         {
         }
 
-        //Creates table called Users in DB
+        //Creates table called User in DB
         public DbSet<AppUser> AppUser { get; set; }
 
-        //Creates a table called Books in the DB
+        //Creates a table called Book in the DB
         public DbSet<Book> Book { get; set; }
 
-        //Creates a table called AppUserBooks
+        //Creates a table called AppUserBook
         public DbSet<AppUserBook> AppUserBook { get; set; }
 
     }

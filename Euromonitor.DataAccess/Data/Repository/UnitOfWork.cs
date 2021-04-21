@@ -16,11 +16,14 @@ namespace Euromonitor.DataAccess.Data.Repository
             _db = db;
             AppUser = new AppUserRepository(_db);
             Book = new BookRepository(_db);
+            AppUserBook = new AppUserBookRepository(_db);
         }
 
         public IAppUserRepository AppUser { get; private set; }
 
         public IBookRepository Book { get; private set; }
+
+        public IAppUserBookRepository AppUserBook { get; private set; }
 
         /// <summary>
         /// Dispose of unused resources
