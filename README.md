@@ -20,6 +20,7 @@ Project is created with:
 * Angular 11
 * Toastr
 * C#
+* Font Awesome
 * Bootstrap 5
 * JWT Web Tokens
 * AutoMapper
