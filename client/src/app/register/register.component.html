@@ -1,0 +1,57 @@
+<!--Reactive Forms:
+N.B.
+Form wont submit until validation passed. We disable the form by preventing the register method from being called:
+(ngSubmit)="registerForm.valid && register()"
+-->
+<form [formGroup]="registerForm" (ngSubmit)="registerForm.valid && register()" autocomplete="off">
+    <h4 class="text-center text-primary">
+      New User
+    </h4>
+    <hr />
+    <app-text-input [formControl]='registerForm.controls["appUserName"]'
+                    [label]='"Username"'>
+    </app-text-input>
+  
+    <app-text-input [formControl]='registerForm.controls["appUserFirstName"]'
+                    [label]='"First Name"'>
+    </app-text-input>
+
+    <app-text-input [formControl]='registerForm.controls["appUserLastName"]'
+                    [label]='"Last Name"'>
+    </app-text-input>
+
+    <app-text-input [formControl]='registerForm.controls["appUserEmailAddress"]'
+                    [label]='"Email Address"'>
+    </app-text-input>
+
+    <app-text-input [formControl]='registerForm.controls["appUserContactNumber"]'
+                    [label]='"Contact Number"'>
+    </app-text-input>
+
+    <app-text-input [formControl]='registerForm.controls["password"]'
+                    [label]='"Password"' [type]='"password"'>
+    </app-text-input>
+
+    <!-- [label]='"Username"' Single Quotes then double quotes as we are passing this as a property-->
+    <app-text-input [formControl]='registerForm.controls["confirmPassword"]'
+                    [label]='"Confirm Password"' [type]='"password"'>
+    </app-text-input>
+
+    <!--Error handling. Write out errrors if returned-->
+    <div *ngIf="validationErrors.length > 0" class="row">
+      <ul class="text-danger">
+        <!--Loop through errors in property-->
+        <li *ngFor="let error of validationErrors">
+          <!--Display error using interpolation-->
+          {{error}}
+        </li>
+      </ul>
+    </div>
+
+    <!--Reg button disabled if form fails client side validation-->
+    <div class="form-group text-center">
+      <button [disabled]="!registerForm.valid" class="btn btn-success mr-2" type="submit">Register</button>
+      <button class="btn btn-default mr-2" type="button" (click)="cancel()">Cancel</button>
+    </div>
+  </form>
+  

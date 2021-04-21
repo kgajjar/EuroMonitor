@@ -1,0 +1,29 @@
+<app-hero></app-hero>
+
+<section>
+<div class="container" *ngIf="products$">
+    <div class="row clearfix">
+      <h1 class="text-center mt-4">Up to 75% OFF!</h1>
+        <div class="col-lg-3 col-md-4 col-sm-12" *ngFor="let book of products$ | async">
+            <div class="card product_item">
+                <div class="body">
+                    <div class="cp_img">
+                        <img id="product_img" src="{{book.bookMarketingImage}}" alt="Product" class="img-fluid">
+                        <div class="hover">
+                            <a href="javascript:void(0);" class="btn btn-primary btn-sm waves-effect"><i class="zmdi zmdi-plus"></i></a>
+                            <a (click)="addToCart(book)" class="btn btn-primary btn-sm waves-effect"><i class="zmdi zmdi-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product_details">
+                        <h5><a [routerLink]="['/product', book.id]">{{book.bookName}}</a></h5>
+                        <ul class="product_price list-unstyled">
+                            <li class="old_price">$16.00</li>
+                            <li class="new_price">${{book.bookPurchasePrice}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>

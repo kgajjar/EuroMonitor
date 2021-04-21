@@ -1,0 +1,13 @@
+.dropdown-toggle, dropdown-item{
+    cursor: pointer;
+}
+
+#dropdownMenuButton {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.bg-light{
+  background-color:#fff !important;
+}

@@ -1,0 +1,74 @@
+<!--Check if member exists before we display him as the data from api might have not been returned from API yet-->
+<div class="row" *ngIf="member">
+  <div class="col-4">
+    <h1>Your profile</h1>
+  </div>
+  <div class="col-8">
+    <!--Notification for profile update-->
+    <div class="alert alert-info" *ngIf="editForm.dirty">
+      <!--Only show if form is dirty (changes made to form)-->
+      <strong>Information: </strong> You have made changes. Any unsaved changes will be lost.
+    </div>
+  </div>
+  <div class="col-4">
+    <!--If no photo uploaded, then reference dummy user picture-->
+    <img src="{{'./assets/images/avatar1.png'}}"
+         class="card-img-top img-thumbnail" alt="{{member.knownAs}}" />
+    <div class="card-body">
+      <div>
+        <strong>Username: </strong>
+        <p>{{member.appUserName}}</p>
+      </div>
+      <div>
+        <strong>Member Since: </strong>
+        <p>{{member.appUserCreated | date: 'yyyy-MM-dd'}}</p>
+      </div>
+    </div>
+    <div class="card-footer">
+      <!--Link this button to form by giving it a form property-->
+      <!--Example: <button form="editForm"/>-->
+      <button [disabled]="!editForm.dirty" form="editForm" class="btn btn-success btn-block">Save Changes</button>
+    </div>
+  </div>
+  <div class="col-8">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">About {{member.knownAs}}</a>
+      </li>
+    </ul>
+    <div class="tab-content member-tabset" id="memberTabContent">
+      <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+        <form id="editForm" #editForm="ngForm" (ngSubmit)="updateMember()">
+           <!--2 way binding here-->
+          <!--Personal Details-->
+          <div class="form-inline">
+            
+            <!--First Name-->
+            <label for="appUserFirstName">
+              First Name:
+            </label>
+            <input disabled [(ngModel)]="member.appUserFirstName" type="text" name="appUserFirstName" class="form-control mx-2" />
+
+            <!--Last Name-->
+            <label for="appUserLastName">
+              Last Name:
+            </label>
+            <input disabled [(ngModel)]="member.appUserLastName" type="text" name="appUserLastName" class="form-control mx-2" />
+
+            <!--Contact Number-->
+            <label for="appUserContactNumber">
+              Contact Number:
+            </label>
+            <input [(ngModel)]="member.appUserContactNumber" type="text" name="appUserContactNumber" class="form-control mx-2" />
+
+            <!--Bio Info-->
+            <h4 class="mt-2">Bio Information</h4>
+            <textarea class="form-control" [(ngModel)]="member.appUserBioInfo" name="appUserBioInfo" rows="6">
+            </textarea>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,36 @@
+<div class="form-group">
+  <!--We get the type from our component-->
+  <input type={{type}}
+         class="form-control mb-3"
+         [class.is-invalid]="ngControl.touched && ngControl.invalid"
+         [formControl]="ngControl.control"
+         placeholder={{label}} />
+
+  <!--Field Required-->
+  <div *ngIf="ngControl.control.errors?.required"
+       class="invalid-feedback mb-2">Please enter a {{label}}</div>
+
+  <!--Min Length-->
+  <div *ngIf="ngControl.control.errors?.minlength"
+       class="invalid-feedback mb-2">
+    {{label}} must be at least {{ngControl.control.errors.minlength['requiredLength']}}
+  </div>
+
+  <!--Max Length-->
+  <div *ngIf="ngControl.control.errors?.maxlength"
+       class="invalid-feedback mb-2">
+    {{label}} must be at most {{ngControl.control.errors.maxlength['requiredLength']}}
+  </div>
+
+  <!--Invalid Email-->
+  <div *ngIf="ngControl.control.errors?.Email"
+       class="invalid-feedback mb-2">
+    Invalid Email address
+  </div>
+
+  <!--IsMatching-->
+  <div *ngIf="ngControl.control.errors?.isMatching"
+       class="invalid-feedback mb-2">
+    Passwords do not match
+  </div>
+</div>

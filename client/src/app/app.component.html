@@ -1,46 +1,12 @@
+<!--Add spinner here-->
+<ngx-spinner>
+  <h3>Loading...</h3>
+</ngx-spinner>
+
 <!--reference the nav component-->
-<app-nav>
-</app-nav>
+<app-nav></app-nav>
 
-<div class="container" style="margin-top:100px">
-    <h1>Euromonitor International Book Store</h1>
-<br>    
-<br>    
-    
-<div class="alert alert-primary" role="alert">    
-  A simple primary alert—check it out!    
-</div>    
-<div class="alert alert-secondary" role="alert">    
-  A simple secondary alert—check it out!    
-</div>    
-<div class="alert alert-success" role="alert">    
-  A simple success alert—check it out!    
-</div>    
-<div class="alert alert-danger" role="alert">    
-  A simple danger alert—check it out!    
-</div>    
-<div class="alert alert-warning" role="alert">    
-  A simple warning alert—check it out!    
-</div>    
-<div class="alert alert-info" role="alert">    
-  A simple info alert—check it out!    
-</div>    
-<div class="alert alert-light" role="alert">    
-  A simple light alert—check it out!    
-</div>    
-<div class="alert alert-dark" role="alert">    
-  A simple dark alert—check it out!    
-</div>  
-
-<h1>Bootstrap In Angular Using NPM Package Manager</h1>    
-<br>    
-<br>    
-<span class="badge rounded-pill bg-primary">Primary</span>    
-<span class="badge rounded-pill bg-secondary">Secondary</span>    
-<span class="badge rounded-pill bg-success">Success</span>    
-<span class="badge rounded-pill bg-danger">Danger</span>    
-<span class="badge rounded-pill bg-warning text-dark">Warning</span>    
-<span class="badge rounded-pill bg-info text-dark">Info</span>    
-<span class="badge rounded-pill bg-light text-dark">Light</span>    
-<span class="badge rounded-pill bg-dark">Dark</span>  
+<div class="container" style="margin-top:20px">
+  <!--We load the router component here instead of forcing home component load-->
+<router-outlet></router-outlet>
 </div>

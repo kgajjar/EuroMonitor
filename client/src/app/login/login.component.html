@@ -1,0 +1,21 @@
+<!--Tell form element that it is an Angular Form-->
+<!--Show if logged out. Can use [Hidden] or use *ngIf will not show element at all on DOM-->
+<form #loginForm="ngForm" (ngSubmit)= "login()" autocomplete="off"
+*ngIf="(accountService.currentUser$ | async) === null">
+  <div class="row justify-content-center">
+      <h4 class="text-center text-primary">Returning User</h4>
+      <hr/>
+      <div class="form-group mb-3">
+      <input type="text" class="form-control" name="username" 
+      [(ngModel)]="model.username" placeholder="Username"/>
+      </div>
+      <div class="form-group mb-3">
+          <input type="password" class="form-control" name="password" 
+          [(ngModel)]="model.password" placeholder="Password"/>
+      </div>
+      <div class="form-group text-center">
+          <button class="btn btn-success col-md-auto mx-2" type="submit">Log-in</button>
+  </div>
+  </div>
+  </form>
+  

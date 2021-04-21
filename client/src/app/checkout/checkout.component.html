@@ -1,0 +1,22 @@
+<div  *ngIf="(accountService.currentUser$ | async) === null">
+    <div class="row">
+        <div class="col-sm-12 mt-3">
+            <h3>Log-in or Register to continue the Checkout process</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 mb-3">
+            <!--Load App Register component-->
+            <app-login></app-login>
+        </div>
+        <div class="col-sm-6 mb-3">
+            <!--Load App Login component-->
+            <app-register></app-register>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="(accountService.currentUser$ | async)">
+<h3>Order Summary</h3>
+<app-checkout-summary></app-checkout-summary>
+</div>
