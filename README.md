@@ -27,6 +27,7 @@ Project is created with:
 * SQL Server
 * EF Core 6
 * Postman
+* Resharper
 * VS Code and Visual Studio
 * Swashbuckle for API documentation
 
