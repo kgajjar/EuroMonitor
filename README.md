@@ -4,6 +4,7 @@
 * [Architecture](#architecture)
 * [Features in Tech Stack](#architecture)
 * [Setup](#setup)
+* [SSL Cert](#SSL)
 
 ## What this repo contains
 This system is architectured to be loosley coupled with a seperation of concerns.
@@ -63,6 +64,9 @@ $ ng serve
 $ cd into Euromonitor.Api and open terminal. Type "dotnet watch run" this will run the API on a static port and automatically rebuild about each save.
 $ Change the connection string in the appsettings.json file to your local or Azure SQL DB and run the API.
 $ Data will be generated for you using the Data Seeding feature.
+
+## SSL Certificate
+* I have added this to the Angular client application for you. Install it and you'll be good to go as it is valid for another 30 years.
 
 Thanks for reading. Kindly reach out of you have any questions for me.
  I would be glad to help.
