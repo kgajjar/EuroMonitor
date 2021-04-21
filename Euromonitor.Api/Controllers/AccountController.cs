@@ -67,6 +67,7 @@ namespace Euromonitor.Api.Controllers
                 Token = _tokenService.CreateToken(user)
             };
         }
+
         /// <summary>
         /// Used to Register new users on the system. Since it also hits the DB, it is set to run asynchronously.
         /// </summary>
