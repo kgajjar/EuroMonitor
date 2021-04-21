@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Euromonitor.DataAccess.Data.Repository
 {
-    public class AppUserRepository : IAppUserRepository
+    public class AppUserRepository : Repository<AppUser>, IAppUserRepository
     {
         private readonly ApplicationDbContext _context;
 
         //Inject our datacontext in here
-        public AppUserRepository(ApplicationDbContext context)
+        public AppUserRepository(ApplicationDbContext context) :base(context)
         {
             _context = context;
         }
@@ -35,8 +35,6 @@ namespace Euromonitor.DataAccess.Data.Repository
         public async Task<IEnumerable<AppUser>> GetUsersAsync()
         {
             return await _context.AppUser
-                //Eager Loading
-                //.Include(p => p.Photos)
                 .ToListAsync();
         }
 

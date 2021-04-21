@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Euromonitor.DataAccess.Data.Repository
 {
-    public class AppUserBookRepository : IAppUserBookRepository
+    public class AppUserBookRepository : Repository<AppUserBook>, IAppUserBookRepository
     {
         private readonly ApplicationDbContext _context;
 
         //Inject our DataContext into the DI container
-        public AppUserBookRepository(ApplicationDbContext context)
+        public AppUserBookRepository(ApplicationDbContext context) : base(context)
         {
             _context = context;
         }

@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Euromonitor.DataAccess.Data.Repository
 {
-    public class BookRepository : IBookRepository
+    public class BookRepository : Repository<Book>, IBookRepository
     {
         private readonly ApplicationDbContext _context;
 
         //Inject our datacontext in here
-        public BookRepository(ApplicationDbContext context)
+        public BookRepository(ApplicationDbContext context) :base(context)
         {
             _context = context;
         }
