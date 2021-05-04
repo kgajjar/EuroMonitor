@@ -45,6 +45,13 @@
             <param name="bookname">The name of the Book</param>
             <returns></returns>
         </member>
+        <member name="M:Euromonitor.Api.Controllers.SubscriptionsController.GetAppUserSubscriptions(System.Int32)">
+            <summary>
+            Get AppUser subscriptions
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
         <member name="M:Euromonitor.Api.Controllers.UsersController.GetUsers">
             <summary>
             Gets all Users and exposes some of their data using a DTO (Data Transfer Object)

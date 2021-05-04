@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kIk2zc8Q9VL5xC1JXBtEUNsJCkUOjwzRHdUZXgswYlwE9R5x0uSD3SCDWeXlOaNU8TjMPofB9zEdfJic1kA0bg==",
+  "dgSpecHash": "KPWte3vD6cU7A13NfonOrJVBWAABe/Xl0vWGWOzZO/j2wFCfPEqMhtDgqh2yJ067wPGCKvDpCyfKq8CK0jgo9w==",
   "success": true,
   "projectFilePath": "C:\\Users\\rhasq\\OneDrive\\Documents\\Tests\\Euromonitor International\\Euromonitor\\Euromonitor.Api\\Euromonitor.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rhasq\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\rhasq\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\rhasq\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\rhasq\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\rhasq\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.5\\microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512",
     "C:\\Users\\rhasq\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.5\\microsoft.aspnetcore.cryptography.internal.5.0.5.nupkg.sha512",

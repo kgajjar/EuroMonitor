@@ -123,3 +123,4 @@ C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Eu
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\Euromonitor.Api.xml\net5.0\Euromonitor.Models.pdb
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\Euromonitor.Api.xml\net5.0\Euromonitor.Utilities.pdb
 C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\bin\Debug\net5.0\Euromonitor.Api.xml
+C:\Users\rhasq\OneDrive\Documents\Tests\Euromonitor International\Euromonitor\Euromonitor.Api\bin\Debug\net5.0\Dapper.dll

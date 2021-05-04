@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Euromonitor.Api.Controllers
 {
-    public class BuggyController : BaseApiController //Since Controller class derives from ControllerBase. We use Controller base as this isn't using views like a MVC app does.
+    public class BuggyController : BaseApiController //Since Controller class derives from ControllerBase. We use Controller base as this isn't using views like an MVC app does.
     {
         private readonly ApplicationDbContext _context;
 
