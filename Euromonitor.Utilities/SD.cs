@@ -8,6 +8,7 @@ namespace Euromonitor.Utilities
 {
     public static class SD
     {
-        //Add Static Details below this line
+        //Stored Procedures
+        public const string sp_GetAppUserSubscriptions = "sp_GetAppUserSubscriptions";
     }
 }
