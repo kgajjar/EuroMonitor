@@ -21,6 +21,8 @@ namespace Euromonitor.DataAccess.Data.Repository.IRepository
 
         IAppUserBookRepository AppUserBook { get; }
 
+        ISP_Call SP_Call { get; }
+
         void Save();
     }
 }

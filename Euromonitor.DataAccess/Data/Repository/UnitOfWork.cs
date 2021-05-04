@@ -17,6 +17,7 @@ namespace Euromonitor.DataAccess.Data.Repository
             AppUser = new AppUserRepository(_db);
             Book = new BookRepository(_db);
             AppUserBook = new AppUserBookRepository(_db);
+            SP_Call = new SP_Call(_db);
         }
 
         public IAppUserRepository AppUser { get; private set; }
@@ -24,6 +25,8 @@ namespace Euromonitor.DataAccess.Data.Repository
         public IBookRepository Book { get; private set; }
 
         public IAppUserBookRepository AppUserBook { get; private set; }
+
+        public ISP_Call SP_Call { get; private set; }
 
         /// <summary>
         /// Dispose of unused resources
