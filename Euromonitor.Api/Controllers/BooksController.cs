@@ -41,7 +41,7 @@ namespace Euromonitor.Api.Controllers
             //Below we have to use async version of ToList
             var books = await _unitOfWork.Book.GetBooksAsync();
 
-            if(books == null)
+            if (books == null)
             {
                 return NotFound();
             }
@@ -68,6 +68,11 @@ namespace Euromonitor.Api.Controllers
         [ProducesDefaultResponseType] //Any error that doesn't fall above
         public async Task<ActionResult<BookDto>> GetBook(string bookname)
         {
+            if (String.IsNullOrWhiteSpace(bookname))
+            {
+                //BadRequest 400
+                return BadRequest("Invalid bookName.");
+            }
             var book = await _unitOfWork.Book.GetBookByBookNameAsync(bookname);
 
             //FindAsync method rather than Find. Map
@@ -86,7 +91,7 @@ namespace Euromonitor.Api.Controllers
             //Get book from DB by Id
             var book = await _unitOfWork.Book.GetBookByIdAsync(bookUpdateDto.Id);
 
-            if(book == null)
+            if (book == null)
             {
                 //404
                 return NotFound();
@@ -105,6 +110,7 @@ namespace Euromonitor.Api.Controllers
             }
             else
             {
+                //400
                 return BadRequest("Failed to update Book.");
             }
 

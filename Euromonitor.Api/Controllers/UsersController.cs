@@ -33,7 +33,6 @@ namespace Euromonitor.Api.Controllers
         /// <returns></returns>
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<MemberDto>))]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)] //Bad Request
         [ProducesDefaultResponseType] //Any error that doesn't fall above
         public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
         {
@@ -61,6 +60,13 @@ namespace Euromonitor.Api.Controllers
         [ProducesDefaultResponseType] //Any error that doesn't fall above
         public async Task<ActionResult<MemberDto>> GetUser(string username)
         {
+            if(String.IsNullOrWhiteSpace(username))
+            {
+                //BadRequest 400
+                return BadRequest("Invalid username.");
+            }
+
+            //Get User by username
             var appUser = await _unitOfWork.AppUser.GetUserByUsernameAsync(username);
 
             //FindAsync method rather than Find. Map
@@ -106,6 +112,7 @@ namespace Euromonitor.Api.Controllers
             }
             else
             {
+                //400
                 return BadRequest("Failed to update user.");
             }
 

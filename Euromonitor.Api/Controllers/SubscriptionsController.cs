@@ -30,28 +30,28 @@ namespace Euromonitor.Api.Controllers
         /// <summary>
         /// Get AppUser subscriptions
         /// </summary>
-        /// <param name="userName"></param>
+        /// <param name="username"></param>
         /// <returns></returns>
-        [HttpGet("{userName}")]
+        [HttpGet("{username}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(SubscriptionDto))]
         [ProducesResponseType(StatusCodes.Status400BadRequest)] //Bad Request
         [ProducesResponseType(StatusCodes.Status404NotFound)] //Not Found
         [ProducesDefaultResponseType] //Any error that doesn't fall above
         [Authorize]
-        public async Task<ActionResult<IEnumerable<SubscriptionDto>>> GetAppUserSubscriptions(string userName)
+        public async Task<ActionResult<IEnumerable<SubscriptionDto>>> GetAppUserSubscriptions(string username)
         {
-            //Invalid userName
-            if (string.IsNullOrWhiteSpace(userName))
+            //Invalid username
+            if (string.IsNullOrWhiteSpace(username))
             {
                 //BadRequest 400
-                return BadRequest("Invalid userName.");
+                return BadRequest("Invalid username.");
             }
 
             //Initialize dynamic parameters class located in Dapper namespace
             var parameters = new DynamicParameters();
 
             //Add input parameter
-            parameters.Add("@AppUserName", userName, DbType.String, ParameterDirection.Input);
+            parameters.Add("@AppUserName", username, DbType.String, ParameterDirection.Input);
 
             //Get User Subscriptions by calling stored proc asynchronously
             var subscriptions = await _unitOfWork.SP_Call.ReturnList<SubscriptionDto>(SD.sp_GetAppUserSubscriptions, parameters);

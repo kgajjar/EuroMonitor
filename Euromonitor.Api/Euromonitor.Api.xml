@@ -49,7 +49,7 @@
             <summary>
             Get AppUser subscriptions
             </summary>
-            <param name="userName"></param>
+            <param name="username"></param>
             <returns></returns>
         </member>
         <member name="M:Euromonitor.Api.Controllers.UsersController.GetUsers">
@@ -82,6 +82,13 @@
             Bringing in ILogger so we can still log out our exceptions to terminal. Useful
             IHostEnvironment - to check if we are in Prod or dev
             </summary>
+        </member>
+        <member name="M:Euromonitor.Api.Services.TokenService.CreateToken(Euromonitor.Models.AppUser)">
+            <summary>
+            Used to create JWT Token
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
         </member>
     </members>
 </doc>

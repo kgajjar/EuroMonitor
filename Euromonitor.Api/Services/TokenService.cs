@@ -21,6 +21,12 @@ namespace Euromonitor.Api.Services
         {
             _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["TokenKey"]));
         }
+
+        /// <summary>
+        /// Used to create JWT Token
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
         public string CreateToken(AppUser user)
         {
             //Identify what claims to put in the token
