@@ -14,6 +14,7 @@ export class AuthGuard implements CanActivate {
   //Inject Account Service and Toastr in here
   constructor(private accountService: AccountService, private toastr: ToastrService) { }
 
+  //The canActivate method returns a boolean indicating whether or not navigation to a route should be allowed.
   canActivate(): Observable<boolean> {
     return this.accountService.currentUser$.pipe(
       map(user => {

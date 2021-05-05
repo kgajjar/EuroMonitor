@@ -33,7 +33,6 @@ export class RegisterComponent implements OnInit {
 
   initializeForm() {
     //Reactive Forms: Initialize form
-    //this.fb.group - using form builder service instead
     this.registerForm = this.fb.group({
       //Here we specify form fields that we want to validate
       appUserName: ['', Validators.required],

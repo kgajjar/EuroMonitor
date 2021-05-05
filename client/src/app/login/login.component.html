@@ -17,5 +17,15 @@
           <button class="btn btn-success col-md-auto mx-2" type="submit">Log-in</button>
   </div>
   </div>
+  <!--Error handling. Write out errrors if returned-->
+  <div *ngIf="validationErrors.length > 0" class="row">
+    <ul class="text-danger">
+      <!--Loop through errors in property-->
+      <li *ngFor="let error of validationErrors">
+        <!--Display error using interpolation-->
+        {{error}}
+      </li>
+    </ul>
+  </div>
   </form>
   
