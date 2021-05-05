@@ -3,6 +3,7 @@ using Dapper;
 using Euromonitor.DataAccess.Data.Repository.IRepository;
 using Euromonitor.Models.Dtos;
 using Euromonitor.Utilities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -29,33 +30,34 @@ namespace Euromonitor.Api.Controllers
         /// <summary>
         /// Get AppUser subscriptions
         /// </summary>
-        /// <param name="userId"></param>
+        /// <param name="userName"></param>
         /// <returns></returns>
-        [HttpGet("{userId}")]
+        [HttpGet("{userName}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(SubscriptionDto))]
         [ProducesResponseType(StatusCodes.Status400BadRequest)] //Bad Request
         [ProducesResponseType(StatusCodes.Status404NotFound)] //Not Found
         [ProducesDefaultResponseType] //Any error that doesn't fall above
-        public async Task<ActionResult<IEnumerable<SubscriptionDto>>> GetAppUserSubscriptions(int userId)
+        [Authorize]
+        public async Task<ActionResult<IEnumerable<SubscriptionDto>>> GetAppUserSubscriptions(string userName)
         {
-            //Invalid User Id
-            if (userId <= 0)
+            //Invalid userName
+            if (string.IsNullOrWhiteSpace(userName))
             {
                 //BadRequest 400
-                return BadRequest("Invalid UserId.");
+                return BadRequest("Invalid userName.");
             }
 
             //Initialize dynamic parameters class located in Dapper namespace
             var parameters = new DynamicParameters();
 
             //Add input parameter
-            parameters.Add("@Id", userId, DbType.Int32, ParameterDirection.Input);
+            parameters.Add("@AppUserName", userName, DbType.String, ParameterDirection.Input);
 
             //Get User Subscriptions by calling stored proc asynchronously
             var subscriptions = await _unitOfWork.SP_Call.ReturnList<SubscriptionDto>(SD.sp_GetAppUserSubscriptions, parameters);
 
 
-            //Wrap result in an OK response
+            //Wrap result in an OK response (Return HTTP reponse of 200 )
             return Ok(subscriptions);
         }
     }

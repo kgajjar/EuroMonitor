@@ -15,7 +15,7 @@ import { ServerErrorComponent } from './errors/server-error/server-error.compone
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
 import { PreventUnsavedChangesGuard } from './_gaurds/prevent-unsaved-changes.guard';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
-import { SubscriptionComponent } from './subscription/subscription.component';
+import { MemberSubscriptionsComponent } from './subscription/subscription.component';
 
 const routes: Routes = [
 
@@ -33,7 +33,7 @@ const routes: Routes = [
       { path: 'member/edit', component: MemberEditComponent, canDeactivate: [PreventUnsavedChangesGuard]},
       { path: 'checkoutsummary', component: CheckoutSummaryComponent },
       { path: 'confirmation', component: ConfirmationComponent },
-      { path: 'subscription', component: SubscriptionComponent },
+      { path: 'subscription', component: MemberSubscriptionsComponent },
     ]
   },
 

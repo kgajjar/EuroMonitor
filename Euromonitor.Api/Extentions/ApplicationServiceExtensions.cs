@@ -29,7 +29,9 @@ namespace Euromonitor.Api.Extentions
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
             });
 
-            //Add Unit Of Work to DI Container
+            /*Add Unit Of Work to DI Container
+              AddScoped means service will run for the life of HTTP req.
+             */
             /*-----------------------------------------------------------------------------*/
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             /*-----------------------------------------------------------------------------*/

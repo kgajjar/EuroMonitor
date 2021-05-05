@@ -75,13 +75,6 @@ namespace Euromonitor.Api
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            //SWAGGER WILL GO HERE
-            if (env.IsDevelopment())
-            {
-                //Removing as this will happen globally
-                //app.UseDeveloperExceptionPage();
-
-            }
 
             //Add our custom Error Middleware
             app.UseMiddleware<ExceptionMiddleware>();

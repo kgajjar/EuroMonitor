@@ -48,7 +48,7 @@ Project is created with:
 * JWT (JSON Web Tokens) - One of the nice features in .Net Core is the JWT feature. Long gone are the days when a server had to authenticate each user by having to establish DB cnnections. As we are dealing with a stateless technology such as Web API, all that happens is the user is authenticate against the DB once. Once approved they are then assigned a token which they can store however they wish. This token has a specific validity period and for Authorized endpoints, may need to be passed in the headers when calling those APIs. This opens up a whole world of opportunities for us to scale.
 * Global Exception handling: Gone are the days when you had to write a try/catch statement around as much code as you could. With .Net Core and DI, it's been made a lot more simple to make it a habit to implement exception handling and inject it as Middleware in our Middleware pipeline. This means that logs are created from one point and reduces the risk of maybe not catching all your errors. Errors are then formatted and returned in a professional and neat JSON format.
 
-## Fetures Used (Angular 11)
+## Features Used (Angular 11)
 * Route Gaurds to manage access to certain areas or componets in the application on the front end only.
 * Observables to ensure that all areas of the software are updated when a value changes in one place. Reminds me of the Observer pattern from my University day.
 * RXJS

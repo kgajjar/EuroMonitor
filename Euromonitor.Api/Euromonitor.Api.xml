@@ -45,11 +45,11 @@
             <param name="bookname">The name of the Book</param>
             <returns></returns>
         </member>
-        <member name="M:Euromonitor.Api.Controllers.SubscriptionsController.GetAppUserSubscriptions(System.Int32)">
+        <member name="M:Euromonitor.Api.Controllers.SubscriptionsController.GetAppUserSubscriptions(System.String)">
             <summary>
             Get AppUser subscriptions
             </summary>
-            <param name="userId"></param>
+            <param name="userName"></param>
             <returns></returns>
         </member>
         <member name="M:Euromonitor.Api.Controllers.UsersController.GetUsers">

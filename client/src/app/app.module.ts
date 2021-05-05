@@ -25,7 +25,7 @@ import { TestErrorsComponent } from './errors/test-errors/test-errors.component'
 import { ErrorInterceptor } from './_interceptors/error.interceptor';
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
-import { SubscriptionComponent } from './subscription/subscription.component';
+import { MemberSubscriptionsComponent } from './subscription/subscription.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +45,7 @@ import { SubscriptionComponent } from './subscription/subscription.component';
     ServerErrorComponent,
     TestErrorsComponent,
     ConfirmationComponent,
-    SubscriptionComponent
+    MemberSubscriptionsComponent
     
   ],
   imports: [

@@ -35,6 +35,7 @@ export class JwtInterceptor implements HttpInterceptor {
         }
       });
     }
+    //Pass Bearer token to request in headers
     return next.handle(request);
   }
 }

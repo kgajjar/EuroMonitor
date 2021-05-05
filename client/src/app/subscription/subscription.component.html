@@ -1,1 +1,34 @@
-<p>subscription works!</p>
+<section>
+    <div class="container padding-bottom-3x mb-1 mt-4">
+        <h3>Subscriptions</h3>
+      <!-- Member Subscriptions-->
+      <div class="table-responsive shopping-cart">
+          <table class="table">
+              <thead>
+                  <tr>
+                      <th>Product Name</th>
+                      <th class="text-center">Price</th>
+                      <th class="text-center"><a class="btn btn-sm btn-outline-danger">Unsubscribe</a></th>
+                  </tr>
+              </thead>
+              <tbody> 
+                  <tr *ngFor="let item of memberSubscriptions">
+                      <td>
+                          <div class="product-item">
+                              <a class="product-thumb" href="#"><img src="{{item.bookMarketingImage}}" class="card-img-top img-thumbnail" alt="Product"></a>
+                              <div class="product-info">
+                                  <h4 class="product-title"><a href="#">{{item.bookName}}</a></h4>
+                                  <span><em>Format:</em>Electronic</span>
+                                  <span><em>Color:</em> Dark Blue</span>
+                              </div>
+                          </div>
+                      </td>
+                      <td class="text-center text-lg text-medium">${{item.bookPurchasePrice}}</td>
+                      <td class="text-center"><a class="remove-from-cart" (click)="_removeCartItem(item.id)" data-toggle="tooltip" title="" data-original-title="Remove item"><i class="fa fa-trash"></i></a></td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+  </section>
+  
